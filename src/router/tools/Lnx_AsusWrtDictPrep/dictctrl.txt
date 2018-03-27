@@ -1,0 +1,10 @@
+;
+; This is comment
+; PS. EN is necessary generated language. It also used for HTML enum number reference.
+; EN must be the first one
+;
+[MODEL]
+RT-AC1200G+
+EN,CN
+
+[END]

@@ -1,0 +1,1 @@
+cmd_net/ipv4/netfilter/nf_nat_rtsp.ko := arm-brcm-linux-uclibcgnueabi-ld -EL -r  -T /home/mango/data/awrt-mango/src-rt-9.x/src/linux/linux-2.6.36/scripts/module-common.lds --build-id  -o net/ipv4/netfilter/nf_nat_rtsp.ko net/ipv4/netfilter/nf_nat_rtsp.o net/ipv4/netfilter/nf_nat_rtsp.mod.o

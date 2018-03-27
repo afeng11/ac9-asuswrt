@@ -1,0 +1,1 @@
+cmd_fs/xfs/xfs.ko := arm-brcm-linux-uclibcgnueabi-ld -EL -r  -T /home/mango/data/awrt-mango/src-rt-9.x/src/linux/linux-2.6.36/scripts/module-common.lds --build-id  -o fs/xfs/xfs.ko fs/xfs/xfs.o fs/xfs/xfs.mod.o

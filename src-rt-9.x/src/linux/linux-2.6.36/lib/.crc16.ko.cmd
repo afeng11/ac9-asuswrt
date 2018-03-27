@@ -1,0 +1,1 @@
+cmd_lib/crc16.ko := arm-brcm-linux-uclibcgnueabi-ld -EL -r  -T /home/mango/data/awrt-mango/src-rt-9.x/src/linux/linux-2.6.36/scripts/module-common.lds --build-id  -o lib/crc16.ko lib/crc16.o lib/crc16.mod.o

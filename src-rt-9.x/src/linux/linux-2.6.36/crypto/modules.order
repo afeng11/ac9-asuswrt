@@ -1,0 +1,2 @@
+kernel/crypto/cbc.ko
+kernel/crypto/des_generic.ko

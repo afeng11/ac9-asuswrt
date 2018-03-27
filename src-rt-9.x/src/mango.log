@@ -1,0 +1,1152 @@
+Feb 14 00:00:13 syslogd started: BusyBox v1.17.4
+Feb 14 00:00:13 kernel: klogd started: BusyBox v1.17.4 (2017-12-29 05:43:13 CST)
+Feb 14 00:00:13 kernel: Linux version 2.6.36.4brcmarm (root@asus) (gcc version 4.5.3 (Buildroot 2012.02) ) #2 PREEMPT Sun Jan 21 21:51:09 CST 2018
+Feb 14 00:00:13 kernel: CPU: ARMv7 Processor [410fc075] revision 5 (ARMv7), cr=10c53c7f
+Feb 14 00:00:13 kernel: CPU: VIPT nonaliasing data cache, VIPT nonaliasing instruction cache
+Feb 14 00:00:13 kernel: Machine: Northstar Prototype
+Feb 14 00:00:13 kernel: Ignoring unrecognised tag 0x00000000
+Feb 14 00:00:13 kernel: Memory policy: ECC disabled, Data cache writealloc
+Feb 14 00:00:13 kernel: Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 32512
+Feb 14 00:00:13 kernel: Kernel command line: root=/dev/mtdblock2 console=ttyS0,115200 init=/sbin/preinit earlyprintk debug
+Feb 14 00:00:13 kernel: Memory: 125464k/125464k available, 5608k reserved, 0K highmem
+Feb 14 00:00:13 kernel: Virtual kernel memory layout:
+Feb 14 00:00:13 kernel:     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+Feb 14 00:00:13 kernel:     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+Feb 14 00:00:13 kernel:     DMA     : 0xf7e00000 - 0xffe00000   ( 128 MB)
+Feb 14 00:00:13 kernel:     vmalloc : 0x88800000 - 0xf0000000   (1656 MB)
+Feb 14 00:00:13 kernel:     lowmem  : 0x80000000 - 0x88000000   ( 128 MB)
+Feb 14 00:00:13 kernel:     modules : 0x7f000000 - 0x80000000   (  16 MB)
+Feb 14 00:00:13 kernel:       .init : 0x80008000 - 0x80039000   ( 196 kB)
+Feb 14 00:00:13 kernel:       .text : 0x80039000 - 0x803e5000   (3760 kB)
+Feb 14 00:00:13 kernel:       .data : 0x803fe000 - 0x80420f40   ( 140 kB)
+Feb 14 00:00:13 kernel: * Invalid signature of oopsbuf: FA-E7-FD-FF-3B-BD-FB-FD (len 1995435743)
+Feb 14 00:00:13 kernel: Mount-cache hash table entries: 512
+Feb 14 00:00:13 kernel: Found ST compatible serial flash with 256 64KB blocks; total size 16MB
+Feb 14 00:00:13 kernel: ACP (Accelerator Coherence Port) enabled
+Feb 14 00:00:14 kernel: bio: create slab <bio-0> at 0
+Feb 14 00:00:14 kernel: PCI: no core
+Feb 14 00:00:14 kernel: PCI: no core
+Feb 14 00:00:14 kernel: PCI: Fixing up bus 0
+Feb 14 00:00:14 kernel: PCI: Fixing up bus 1
+Feb 14 00:00:14 kernel: PCI: scanning bus 0 !!!
+Feb 14 00:00:14 kernel: PCI: Fixing up bus 0
+Feb 14 00:00:14 kernel: VFS: Disk quotas dquot_6.5.2
+Feb 14 00:00:14 kernel: Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+Feb 14 00:00:14 kernel: pflash: found no supported devices
+Feb 14 00:00:14 kernel: bcmsflash: squash filesystem found at block 30
+Feb 14 00:00:14 kernel: Creating 5 MTD partitions on "bcmsflash":
+Feb 14 00:00:14 kernel: 0x000000000000-0x000000040000 : "boot"
+Feb 14 00:00:14 kernel: 0x000000040000-0x000000ff0000 : "linux"
+Feb 14 00:00:14 kernel: 0x0000001ef8fc-0x000000e10000 : "rootfs"
+Feb 14 00:00:14 kernel: 0x000000e10000-0x000000ff0000 : "jffs2"
+Feb 14 00:00:14 kernel: 0x000000ff0000-0x000001000000 : "nvram"
+Feb 14 00:00:14 kernel: === PPTP init ===
+Feb 14 00:00:14 kernel: Registering the dns_resolver key type
+Feb 14 00:00:14 kernel: VFS: Mounted root (squashfs filesystem) readonly on device 31:2.
+Feb 14 00:00:14 kernel: ctf: module license 'Proprietary' taints kernel.
+Feb 14 00:00:14 kernel: Disabling lock debugging due to kernel taint
+Feb 14 00:00:14 kernel: et_module_init: passivemode set to 0x0
+Feb 14 00:00:14 kernel: et_module_init: txworkq set to 0x1
+Feb 14 00:00:14 kernel: et_module_init: et_txq_thresh set to 0xce4
+Feb 14 00:00:14 kernel: et_module_init: et_rxlazy_timeout set to 0x3e8
+Feb 14 00:00:14 kernel: et_module_init: et_rxlazy_framecnt set to 0x20
+Feb 14 00:00:14 kernel: bcm_robo_enable_switch: EEE is disabled
+Feb 14 00:00:14 kernel: eth0: Broadcom BCM47XX 10/100/1000 Mbps Ethernet Controller 9.10.178.61 (r667680)
+Feb 14 00:00:14 kernel: wl_module_init: passivemode set to 0x0
+Feb 14 00:00:14 kernel: wl_module_init: txworkq set to 0x1
+Feb 14 00:00:15 kernel: PCI: Enabling device 0001:01:00.0 (0140 -> 0142)
+Feb 14 00:00:15 kernel: eth1: Broadcom BCM43227 802.11 Wireless Controller 9.10.178.61 (r667680)
+Feb 14 00:00:15 kernel: eth2: Broadcom BCM43c8 802.11 Wireless Controller 9.10.178.61 (r667680)
+Feb 14 00:00:15 nat: apply redirect rules
+Feb 14 00:00:15 WAN Connection: ISP's DHCP did not function properly.
+Feb 14 00:00:15 WAN Connection: Ethernet link down.
+Feb 14 00:00:15 dnsmasq[204]: warning: no upstream servers configured
+Feb 14 00:00:16 RT-AC1200G+: start httpd
+Feb 14 00:00:16 disk monitor: be idle
+Feb 14 00:00:16 jffs2: valid logs(1)
+Feb 14 00:00:16 syslog: Generating SSL certificate...
+Feb 14 00:00:16 hour monitor: daemon is starting
+Feb 14 00:00:16 hour monitor: daemon terminates
+Feb 14 00:00:17 miniupnpd[245]: version 1.9 started
+Feb 14 00:00:17 miniupnpd[245]: HTTP listening on port 43386
+Feb 14 00:00:17 miniupnpd[245]: Listening for NAT-PMP/PCP traffic on port 5351
+Feb 14 00:00:26 syslog: module ledtrig-usbdev not found in modules.dep
+Feb 14 00:00:26 syslog: module leds-usb not found in modules.dep
+Feb 14 00:00:26 kernel: SCSI subsystem initialized
+Feb 14 00:00:58 rc_service: httpd 210:notify_rc start_autodet
+Feb 14 00:01:31 rc_service: httpd 210:notify_rc start_autodet
+Feb 14 00:01:52 rc_service: httpd 210:notify_rc start_webs_update
+Feb 14 00:02:02 rc_service: httpd 210:notify_rc chpass
+Feb 14 00:02:03 rc_service: httpd 210:notify_rc restart_ftpsamba
+Feb 14 00:02:03 FTP Server: daemon is stoped
+Feb 14 00:02:04 Samba Server: smb daemon is stoped
+Feb 14 00:02:04 kernel: gro disabled
+Feb 14 00:02:04 dnsmasq[418]: warning: no upstream servers configured
+Feb 14 00:02:07 rc_service: httpd 210:notify_rc restart_wireless;restart_time
+Feb 14 00:02:20 kernel: klogd: exiting
+Feb 14 00:02:20 syslogd exiting
+Feb 14 08:02:20 syslogd started: BusyBox v1.17.4
+Feb 14 08:02:20 kernel: klogd started: BusyBox v1.17.4 (2017-12-29 05:43:13 CST)
+Feb 14 08:02:22 kernel: nf_conntrack_rtsp v0.6.21 loading
+Feb 14 08:02:22 kernel: nf_nat_rtsp v0.6.21 loading
+Feb 14 08:02:22 miniupnpd[504]: version 1.9 started
+Feb 14 08:02:22 miniupnpd[504]: HTTP listening on port 54668
+Feb 14 08:02:22 miniupnpd[504]: Listening for NAT-PMP/PCP traffic on port 5351
+Feb 14 08:02:22 hour monitor: daemon is starting
+Feb 14 08:02:22 hour monitor: daemon terminates
+Feb 14 08:33:53 rc_service: httpd 210:notify_rc restart_wlcscan
+Feb 14 08:34:28 rc_service: httpd 210:notify_rc reboot
+Feb 14 08:34:29 iTunes: daemon is stoped
+Feb 14 08:34:29 FTP Server: daemon is stoped
+Feb 14 08:34:29 Samba Server: smb daemon is stoped
+Feb 14 08:34:29 kernel: gro disabled
+Feb 14 08:34:30 ntp: start NTP update
+Feb 14 08:00:10 syslogd started: BusyBox v1.17.4
+Feb 14 08:00:10 kernel: klogd started: BusyBox v1.17.4 (2017-12-29 05:43:13 CST)
+Feb 14 08:00:10 kernel: Linux version 2.6.36.4brcmarm (root@asus) (gcc version 4.5.3 (Buildroot 2012.02) ) #2 PREEMPT Sun Jan 21 21:51:09 CST 2018
+Feb 14 08:00:10 kernel: CPU: ARMv7 Processor [410fc075] revision 5 (ARMv7), cr=10c53c7f
+Feb 14 08:00:10 kernel: CPU: VIPT nonaliasing data cache, VIPT nonaliasing instruction cache
+Feb 14 08:00:10 kernel: Machine: Northstar Prototype
+Feb 14 08:00:10 kernel: Ignoring unrecognised tag 0x00000000
+Feb 14 08:00:10 kernel: Memory policy: ECC disabled, Data cache writealloc
+Feb 14 08:00:10 kernel: Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 32512
+Feb 14 08:00:10 kernel: Kernel command line: root=/dev/mtdblock2 console=ttyS0,115200 init=/sbin/preinit earlyprintk debug
+Feb 14 08:00:10 kernel: Memory: 125464k/125464k available, 5608k reserved, 0K highmem
+Feb 14 08:00:10 kernel: Virtual kernel memory layout:
+Feb 14 08:00:10 kernel:     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+Feb 14 08:00:10 kernel:     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+Feb 14 08:00:10 kernel:     DMA     : 0xf7e00000 - 0xffe00000   ( 128 MB)
+Feb 14 08:00:10 kernel:     vmalloc : 0x88800000 - 0xf0000000   (1656 MB)
+Feb 14 08:00:10 kernel:     lowmem  : 0x80000000 - 0x88000000   ( 128 MB)
+Feb 14 08:00:10 kernel:     modules : 0x7f000000 - 0x80000000   (  16 MB)
+Feb 14 08:00:10 kernel:       .init : 0x80008000 - 0x80039000   ( 196 kB)
+Feb 14 08:00:10 kernel:       .text : 0x80039000 - 0x803e5000   (3760 kB)
+Feb 14 08:00:10 kernel:       .data : 0x803fe000 - 0x80420f40   ( 140 kB)
+Feb 14 08:00:10 kernel: Mount-cache hash table entries: 512
+Feb 14 08:00:10 kernel: Found ST compatible serial flash with 256 64KB blocks; total size 16MB
+Feb 14 08:00:10 kernel: ACP (Accelerator Coherence Port) enabled
+Feb 14 08:00:10 kernel: bio: create slab <bio-0> at 0
+Feb 14 08:00:10 kernel: PCI: no core
+Feb 14 08:00:10 kernel: PCI: no core
+Feb 14 08:00:10 kernel: PCI: Fixing up bus 0
+Feb 14 08:00:10 kernel: PCI: Fixing up bus 1
+Feb 14 08:00:10 kernel: PCI: scanning bus 0 !!!
+Feb 14 08:00:10 kernel: PCI: Fixing up bus 0
+Feb 14 08:00:10 kernel: VFS: Disk quotas dquot_6.5.2
+Feb 14 08:00:11 kernel: Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+Feb 14 08:00:11 kernel: pflash: found no supported devices
+Feb 14 08:00:11 kernel: bcmsflash: squash filesystem found at block 30
+Feb 14 08:00:11 kernel: Creating 5 MTD partitions on "bcmsflash":
+Feb 14 08:00:11 kernel: 0x000000000000-0x000000040000 : "boot"
+Feb 14 08:00:11 kernel: 0x000000040000-0x000000ff0000 : "linux"
+Feb 14 08:00:11 kernel: 0x0000001ef8fc-0x000000e10000 : "rootfs"
+Feb 14 08:00:11 kernel: 0x000000e10000-0x000000ff0000 : "jffs2"
+Feb 14 08:00:11 kernel: 0x000000ff0000-0x000001000000 : "nvram"
+Feb 14 08:00:11 kernel: === PPTP init ===
+Feb 14 08:00:11 kernel: Registering the dns_resolver key type
+Feb 14 08:00:11 kernel: VFS: Mounted root (squashfs filesystem) readonly on device 31:2.
+Feb 14 08:00:11 kernel: ctf: module license 'Proprietary' taints kernel.
+Feb 14 08:00:11 kernel: Disabling lock debugging due to kernel taint
+Feb 14 08:00:11 kernel: et_module_init: passivemode set to 0x0
+Feb 14 08:00:11 kernel: et_module_init: txworkq set to 0x1
+Feb 14 08:00:11 kernel: et_module_init: et_txq_thresh set to 0xce4
+Feb 14 08:00:11 kernel: et_module_init: et_rxlazy_timeout set to 0x3e8
+Feb 14 08:00:11 kernel: et_module_init: et_rxlazy_framecnt set to 0x20
+Feb 14 08:00:11 kernel: bcm_robo_enable_switch: EEE is disabled
+Feb 14 08:00:11 kernel: eth0: Broadcom BCM47XX 10/100/1000 Mbps Ethernet Controller 9.10.178.61 (r667680)
+Feb 14 08:00:11 kernel: wl_module_init: passivemode set to 0x0
+Feb 14 08:00:11 kernel: wl_module_init: txworkq set to 0x1
+Feb 14 08:00:11 kernel: PCI: Enabling device 0001:01:00.0 (0140 -> 0142)
+Feb 14 08:00:11 kernel: eth1: Broadcom BCM43227 802.11 Wireless Controller 9.10.178.61 (r667680)
+Feb 14 08:00:11 kernel: eth2: Broadcom BCM43c8 802.11 Wireless Controller 9.10.178.61 (r667680)
+Feb 14 08:00:12 RT-AC1200G+: start httpd
+Feb 14 08:00:13 syslog: Generating SSL certificate...
+Feb 14 08:00:13 disk monitor: be idle
+Feb 14 08:00:13 jffs2: valid logs(1)
+Feb 14 08:00:13 syslog: module ledtrig-usbdev not found in modules.dep
+Feb 14 08:00:13 syslog: module leds-usb not found in modules.dep
+Feb 14 08:00:14 kernel: SCSI subsystem initialized
+Feb 14 08:00:34 rc_service: httpd 200:notify_rc restart_wlcscan
+Feb 14 08:00:10 syslogd started: BusyBox v1.17.4
+Feb 14 08:00:10 kernel: klogd started: BusyBox v1.17.4 (2017-12-29 05:43:13 CST)
+Feb 14 08:00:10 kernel: Linux version 2.6.36.4brcmarm (root@asus) (gcc version 4.5.3 (Buildroot 2012.02) ) #4 PREEMPT Tue Jan 23 20:28:18 CST 2018
+Feb 14 08:00:10 kernel: CPU: ARMv7 Processor [410fc075] revision 5 (ARMv7), cr=10c53c7f
+Feb 14 08:00:10 kernel: CPU: VIPT nonaliasing data cache, VIPT nonaliasing instruction cache
+Feb 14 08:00:10 kernel: Machine: Northstar Prototype
+Feb 14 08:00:10 kernel: Ignoring unrecognised tag 0x00000000
+Feb 14 08:00:10 kernel: Memory policy: ECC disabled, Data cache writealloc
+Feb 14 08:00:10 kernel: Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 32512
+Feb 14 08:00:10 kernel: Kernel command line: root=/dev/mtdblock2 console=ttyS0,115200 init=/sbin/preinit earlyprintk debug
+Feb 14 08:00:10 kernel: Memory: 125464k/125464k available, 5608k reserved, 0K highmem
+Feb 14 08:00:10 kernel: Virtual kernel memory layout:
+Feb 14 08:00:10 kernel:     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+Feb 14 08:00:10 kernel:     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+Feb 14 08:00:10 kernel:     DMA     : 0xf7e00000 - 0xffe00000   ( 128 MB)
+Feb 14 08:00:10 kernel:     vmalloc : 0x88800000 - 0xf0000000   (1656 MB)
+Feb 14 08:00:10 kernel:     lowmem  : 0x80000000 - 0x88000000   ( 128 MB)
+Feb 14 08:00:10 kernel:     modules : 0x7f000000 - 0x80000000   (  16 MB)
+Feb 14 08:00:10 kernel:       .init : 0x80008000 - 0x80039000   ( 196 kB)
+Feb 14 08:00:10 kernel:       .text : 0x80039000 - 0x803e5000   (3760 kB)
+Feb 14 08:00:10 kernel:       .data : 0x803fe000 - 0x80420f40   ( 140 kB)
+Feb 14 08:00:10 kernel: Mount-cache hash table entries: 512
+Feb 14 08:00:10 kernel: Found ST compatible serial flash with 256 64KB blocks; total size 16MB
+Feb 14 08:00:10 kernel: ACP (Accelerator Coherence Port) enabled
+Feb 14 08:00:10 kernel: bio: create slab <bio-0> at 0
+Feb 14 08:00:10 kernel: PCI: no core
+Feb 14 08:00:10 kernel: PCI: no core
+Feb 14 08:00:10 kernel: PCI: Fixing up bus 0
+Feb 14 08:00:10 kernel: PCI: Fixing up bus 1
+Feb 14 08:00:10 kernel: PCI: scanning bus 0 !!!
+Feb 14 08:00:10 kernel: PCI: Fixing up bus 0
+Feb 14 08:00:10 kernel: VFS: Disk quotas dquot_6.5.2
+Feb 14 08:00:11 kernel: Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+Feb 14 08:00:11 kernel: pflash: found no supported devices
+Feb 14 08:00:11 kernel: bcmsflash: squash filesystem found at block 30
+Feb 14 08:00:11 kernel: Creating 5 MTD partitions on "bcmsflash":
+Feb 14 08:00:11 kernel: 0x000000000000-0x000000040000 : "boot"
+Feb 14 08:00:11 kernel: 0x000000040000-0x000000ff0000 : "linux"
+Feb 14 08:00:11 kernel: 0x0000001ef8fc-0x000000e10000 : "rootfs"
+Feb 14 08:00:11 kernel: 0x000000e10000-0x000000ff0000 : "jffs2"
+Feb 14 08:00:11 kernel: 0x000000ff0000-0x000001000000 : "nvram"
+Feb 14 08:00:11 kernel: === PPTP init ===
+Feb 14 08:00:11 kernel: Registering the dns_resolver key type
+Feb 14 08:00:11 kernel: VFS: Mounted root (squashfs filesystem) readonly on device 31:2.
+Feb 14 08:00:11 kernel: ctf: module license 'Proprietary' taints kernel.
+Feb 14 08:00:11 kernel: Disabling lock debugging due to kernel taint
+Feb 14 08:00:11 kernel: et_module_init: passivemode set to 0x0
+Feb 14 08:00:11 kernel: et_module_init: txworkq set to 0x1
+Feb 14 08:00:11 kernel: et_module_init: et_txq_thresh set to 0xce4
+Feb 14 08:00:11 kernel: et_module_init: et_rxlazy_timeout set to 0x3e8
+Feb 14 08:00:11 kernel: et_module_init: et_rxlazy_framecnt set to 0x20
+Feb 14 08:00:11 kernel: bcm_robo_enable_switch: EEE is disabled
+Feb 14 08:00:11 kernel: eth0: Broadcom BCM47XX 10/100/1000 Mbps Ethernet Controller 9.10.178.61 (r667680)
+Feb 14 08:00:11 kernel: wl_module_init: passivemode set to 0x0
+Feb 14 08:00:11 kernel: wl_module_init: txworkq set to 0x1
+Feb 14 08:00:11 kernel: PCI: Enabling device 0001:01:00.0 (0140 -> 0142)
+Feb 14 08:00:11 kernel: eth1: Broadcom BCM43227 802.11 Wireless Controller 9.10.178.61 (r667680)
+Feb 14 08:00:11 kernel: eth2: Broadcom BCM43c8 802.11 Wireless Controller 9.10.178.61 (r667680)
+Feb 14 08:00:12 RT-AC1200G+: start httpd
+Feb 14 08:00:12 jffs2: valid logs(1)
+Feb 14 08:00:13 disk monitor: be idle
+Feb 14 08:00:13 syslog: module ledtrig-usbdev not found in modules.dep
+Feb 14 08:00:13 syslog: module leds-usb not found in modules.dep
+Feb 14 08:00:13 syslog: Generating SSL certificate...
+Feb 14 08:00:13 kernel: SCSI subsystem initialized
+Feb 14 08:01:07 rc_service: httpd 197:notify_rc restart_wlcscan
+Feb 14 08:01:45 rc_service: httpd 197:notify_rc reboot
+Feb 14 08:01:47 iTunes: daemon is stoped
+Feb 14 08:01:47 FTP Server: daemon is stoped
+Feb 14 08:01:47 Samba Server: smb daemon is stoped
+Feb 14 08:01:47 kernel: gro disabled
+Feb 14 08:00:10 syslogd started: BusyBox v1.17.4
+Feb 14 08:00:10 kernel: klogd started: BusyBox v1.17.4 (2017-12-29 05:43:13 CST)
+Feb 14 08:00:10 kernel: Linux version 2.6.36.4brcmarm (root@asus) (gcc version 4.5.3 (Buildroot 2012.02) ) #4 PREEMPT Tue Jan 23 20:28:18 CST 2018
+Feb 14 08:00:10 kernel: CPU: ARMv7 Processor [410fc075] revision 5 (ARMv7), cr=10c53c7f
+Feb 14 08:00:10 kernel: CPU: VIPT nonaliasing data cache, VIPT nonaliasing instruction cache
+Feb 14 08:00:10 kernel: Machine: Northstar Prototype
+Feb 14 08:00:10 kernel: Ignoring unrecognised tag 0x00000000
+Feb 14 08:00:10 kernel: Memory policy: ECC disabled, Data cache writealloc
+Feb 14 08:00:10 kernel: Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 32512
+Feb 14 08:00:10 kernel: Kernel command line: root=/dev/mtdblock2 console=ttyS0,115200 init=/sbin/preinit earlyprintk debug
+Feb 14 08:00:10 kernel: Memory: 125464k/125464k available, 5608k reserved, 0K highmem
+Feb 14 08:00:10 kernel: Virtual kernel memory layout:
+Feb 14 08:00:10 kernel:     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+Feb 14 08:00:10 kernel:     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+Feb 14 08:00:10 kernel:     DMA     : 0xf7e00000 - 0xffe00000   ( 128 MB)
+Feb 14 08:00:10 kernel:     vmalloc : 0x88800000 - 0xf0000000   (1656 MB)
+Feb 14 08:00:10 kernel:     lowmem  : 0x80000000 - 0x88000000   ( 128 MB)
+Feb 14 08:00:10 kernel:     modules : 0x7f000000 - 0x80000000   (  16 MB)
+Feb 14 08:00:10 kernel:       .init : 0x80008000 - 0x80039000   ( 196 kB)
+Feb 14 08:00:10 kernel:       .text : 0x80039000 - 0x803e5000   (3760 kB)
+Feb 14 08:00:10 kernel:       .data : 0x803fe000 - 0x80420f40   ( 140 kB)
+Feb 14 08:00:10 kernel: Mount-cache hash table entries: 512
+Feb 14 08:00:10 kernel: Found ST compatible serial flash with 256 64KB blocks; total size 16MB
+Feb 14 08:00:10 kernel: ACP (Accelerator Coherence Port) enabled
+Feb 14 08:00:10 kernel: bio: create slab <bio-0> at 0
+Feb 14 08:00:10 kernel: PCI: no core
+Feb 14 08:00:10 kernel: PCI: no core
+Feb 14 08:00:10 kernel: PCI: Fixing up bus 0
+Feb 14 08:00:10 kernel: PCI: Fixing up bus 1
+Feb 14 08:00:10 kernel: PCI: scanning bus 0 !!!
+Feb 14 08:00:10 kernel: PCI: Fixing up bus 0
+Feb 14 08:00:10 kernel: VFS: Disk quotas dquot_6.5.2
+Feb 14 08:00:11 kernel: Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+Feb 14 08:00:11 kernel: pflash: found no supported devices
+Feb 14 08:00:11 kernel: bcmsflash: squash filesystem found at block 30
+Feb 14 08:00:11 kernel: Creating 5 MTD partitions on "bcmsflash":
+Feb 14 08:00:11 kernel: 0x000000000000-0x000000040000 : "boot"
+Feb 14 08:00:11 kernel: 0x000000040000-0x000000ff0000 : "linux"
+Feb 14 08:00:11 kernel: 0x0000001ef8fc-0x000000e10000 : "rootfs"
+Feb 14 08:00:11 kernel: 0x000000e10000-0x000000ff0000 : "jffs2"
+Feb 14 08:00:11 kernel: 0x000000ff0000-0x000001000000 : "nvram"
+Feb 14 08:00:11 kernel: === PPTP init ===
+Feb 14 08:00:11 kernel: Registering the dns_resolver key type
+Feb 14 08:00:11 kernel: VFS: Mounted root (squashfs filesystem) readonly on device 31:2.
+Feb 14 08:00:11 kernel: ctf: module license 'Proprietary' taints kernel.
+Feb 14 08:00:11 kernel: Disabling lock debugging due to kernel taint
+Feb 14 08:00:11 kernel: et_module_init: passivemode set to 0x0
+Feb 14 08:00:11 kernel: et_module_init: txworkq set to 0x1
+Feb 14 08:00:11 kernel: et_module_init: et_txq_thresh set to 0xce4
+Feb 14 08:00:11 kernel: et_module_init: et_rxlazy_timeout set to 0x3e8
+Feb 14 08:00:11 kernel: et_module_init: et_rxlazy_framecnt set to 0x20
+Feb 14 08:00:11 kernel: bcm_robo_enable_switch: EEE is disabled
+Feb 14 08:00:11 kernel: eth0: Broadcom BCM47XX 10/100/1000 Mbps Ethernet Controller 9.10.178.61 (r667680)
+Feb 14 08:00:11 kernel: wl_module_init: passivemode set to 0x0
+Feb 14 08:00:11 kernel: wl_module_init: txworkq set to 0x1
+Feb 14 08:00:11 kernel: PCI: Enabling device 0001:01:00.0 (0140 -> 0142)
+Feb 14 08:00:11 kernel: eth1: Broadcom BCM43227 802.11 Wireless Controller 9.10.178.61 (r667680)
+Feb 14 08:00:11 kernel: eth2: Broadcom BCM43c8 802.11 Wireless Controller 9.10.178.61 (r667680)
+Feb 14 08:00:12 RT-AC1200G+: start httpd
+Feb 14 08:00:13 syslog: Generating SSL certificate...
+Feb 14 08:00:13 jffs2: valid logs(1)
+Feb 14 08:00:13 disk monitor: be idle
+Feb 14 08:00:13 syslog: module ledtrig-usbdev not found in modules.dep
+Feb 14 08:00:13 syslog: module leds-usb not found in modules.dep
+Feb 14 08:00:14 kernel: SCSI subsystem initialized
+Feb 14 08:00:29 rc_service: httpd 200:notify_rc restart_wlcscan
+Feb 14 08:03:09 rc_service: httpd 200:notify_rc restart_wlcscan
+Feb 14 08:04:53 rc_service: httpd 200:notify_rc reboot
+Feb 14 08:04:54 iTunes: daemon is stoped
+Feb 14 08:04:55 FTP Server: daemon is stoped
+Feb 14 08:04:55 Samba Server: smb daemon is stoped
+Feb 14 08:04:55 kernel: gro disabled
+Feb 14 08:00:10 syslogd started: BusyBox v1.17.4
+Feb 14 08:00:10 kernel: klogd started: BusyBox v1.17.4 (2017-12-29 05:43:13 CST)
+Feb 14 08:00:10 kernel: Linux version 2.6.36.4brcmarm (root@asus) (gcc version 4.5.3 (Buildroot 2012.02) ) #4 PREEMPT Tue Jan 23 20:28:18 CST 2018
+Feb 14 08:00:10 kernel: CPU: ARMv7 Processor [410fc075] revision 5 (ARMv7), cr=10c53c7f
+Feb 14 08:00:10 kernel: CPU: VIPT nonaliasing data cache, VIPT nonaliasing instruction cache
+Feb 14 08:00:10 kernel: Machine: Northstar Prototype
+Feb 14 08:00:10 kernel: Ignoring unrecognised tag 0x00000000
+Feb 14 08:00:10 kernel: Memory policy: ECC disabled, Data cache writealloc
+Feb 14 08:00:10 kernel: Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 32512
+Feb 14 08:00:10 kernel: Kernel command line: root=/dev/mtdblock2 console=ttyS0,115200 init=/sbin/preinit earlyprintk debug
+Feb 14 08:00:10 kernel: Memory: 125464k/125464k available, 5608k reserved, 0K highmem
+Feb 14 08:00:10 kernel: Virtual kernel memory layout:
+Feb 14 08:00:10 kernel:     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+Feb 14 08:00:10 kernel:     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+Feb 14 08:00:10 kernel:     DMA     : 0xf7e00000 - 0xffe00000   ( 128 MB)
+Feb 14 08:00:10 kernel:     vmalloc : 0x88800000 - 0xf0000000   (1656 MB)
+Feb 14 08:00:10 kernel:     lowmem  : 0x80000000 - 0x88000000   ( 128 MB)
+Feb 14 08:00:10 kernel:     modules : 0x7f000000 - 0x80000000   (  16 MB)
+Feb 14 08:00:10 kernel:       .init : 0x80008000 - 0x80039000   ( 196 kB)
+Feb 14 08:00:10 kernel:       .text : 0x80039000 - 0x803e5000   (3760 kB)
+Feb 14 08:00:10 kernel:       .data : 0x803fe000 - 0x80420f40   ( 140 kB)
+Feb 14 08:00:10 kernel: Mount-cache hash table entries: 512
+Feb 14 08:00:10 kernel: Found ST compatible serial flash with 256 64KB blocks; total size 16MB
+Feb 14 08:00:10 kernel: ACP (Accelerator Coherence Port) enabled
+Feb 14 08:00:10 kernel: bio: create slab <bio-0> at 0
+Feb 14 08:00:10 kernel: PCI: no core
+Feb 14 08:00:10 kernel: PCI: no core
+Feb 14 08:00:10 kernel: PCI: Fixing up bus 0
+Feb 14 08:00:10 kernel: PCI: Fixing up bus 1
+Feb 14 08:00:10 kernel: PCI: scanning bus 0 !!!
+Feb 14 08:00:10 kernel: PCI: Fixing up bus 0
+Feb 14 08:00:10 kernel: VFS: Disk quotas dquot_6.5.2
+Feb 14 08:00:11 kernel: Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+Feb 14 08:00:11 kernel: pflash: found no supported devices
+Feb 14 08:00:11 kernel: bcmsflash: squash filesystem found at block 30
+Feb 14 08:00:11 kernel: Creating 5 MTD partitions on "bcmsflash":
+Feb 14 08:00:11 kernel: 0x000000000000-0x000000040000 : "boot"
+Feb 14 08:00:11 kernel: 0x000000040000-0x000000ff0000 : "linux"
+Feb 14 08:00:11 kernel: 0x0000001ef8fc-0x000000e10000 : "rootfs"
+Feb 14 08:00:11 kernel: 0x000000e10000-0x000000ff0000 : "jffs2"
+Feb 14 08:00:11 kernel: 0x000000ff0000-0x000001000000 : "nvram"
+Feb 14 08:00:11 kernel: === PPTP init ===
+Feb 14 08:00:11 kernel: Registering the dns_resolver key type
+Feb 14 08:00:11 kernel: VFS: Mounted root (squashfs filesystem) readonly on device 31:2.
+Feb 14 08:00:11 kernel: ctf: module license 'Proprietary' taints kernel.
+Feb 14 08:00:11 kernel: Disabling lock debugging due to kernel taint
+Feb 14 08:00:11 kernel: et_module_init: passivemode set to 0x0
+Feb 14 08:00:11 kernel: et_module_init: txworkq set to 0x1
+Feb 14 08:00:11 kernel: et_module_init: et_txq_thresh set to 0xce4
+Feb 14 08:00:11 kernel: et_module_init: et_rxlazy_timeout set to 0x3e8
+Feb 14 08:00:11 kernel: et_module_init: et_rxlazy_framecnt set to 0x20
+Feb 14 08:00:11 kernel: bcm_robo_enable_switch: EEE is disabled
+Feb 14 08:00:11 kernel: eth0: Broadcom BCM47XX 10/100/1000 Mbps Ethernet Controller 9.10.178.61 (r667680)
+Feb 14 08:00:11 kernel: wl_module_init: passivemode set to 0x0
+Feb 14 08:00:11 kernel: wl_module_init: txworkq set to 0x1
+Feb 14 08:00:11 kernel: PCI: Enabling device 0001:01:00.0 (0140 -> 0142)
+Feb 14 08:00:11 kernel: eth1: Broadcom BCM43227 802.11 Wireless Controller 9.10.178.61 (r667680)
+Feb 14 08:00:11 kernel: eth2: Broadcom BCM43c8 802.11 Wireless Controller 9.10.178.61 (r667680)
+Feb 14 08:00:11 ntp: start NTP update
+Feb 14 08:00:12 RT-AC1200G+: start httpd
+Feb 14 08:00:13 syslog: Generating SSL certificate...
+Feb 14 08:00:14 jffs2: valid logs(1)
+Feb 14 08:00:14 disk monitor: be idle
+Feb 14 08:00:14 syslog: module ledtrig-usbdev not found in modules.dep
+Feb 14 08:00:14 syslog: module leds-usb not found in modules.dep
+Feb 14 08:00:15 kernel: SCSI subsystem initialized
+Feb 14 08:00:35 rc_service: httpd 200:notify_rc restart_wlcscan
+Feb 14 08:00:38 ntp: start NTP update
+Feb 14 08:01:05 ntp: start NTP update
+Feb 14 08:01:32 ntp: start NTP update
+Feb 14 08:01:59 ntp: start NTP update
+Feb 14 08:02:27 ntp: start NTP update
+Feb 14 08:02:53 rc_service: httpd 200:notify_rc restart_wlcscan
+Feb 14 08:02:54 ntp: start NTP update
+Feb 14 08:03:21 ntp: start NTP update
+Feb 14 08:03:28 rc_service: httpd 200:notify_rc reboot
+Feb 14 08:03:30 iTunes: daemon is stoped
+Feb 14 08:03:30 FTP Server: daemon is stoped
+Feb 14 08:03:30 Samba Server: smb daemon is stoped
+Feb 14 08:03:30 kernel: gro disabled
+Feb 14 08:00:10 syslogd started: BusyBox v1.17.4
+Feb 14 08:00:10 kernel: klogd started: BusyBox v1.17.4 (2017-12-29 05:43:13 CST)
+Feb 14 08:00:10 kernel: Linux version 2.6.36.4brcmarm (root@asus) (gcc version 4.5.3 (Buildroot 2012.02) ) #4 PREEMPT Tue Jan 23 20:28:18 CST 2018
+Feb 14 08:00:10 kernel: CPU: ARMv7 Processor [410fc075] revision 5 (ARMv7), cr=10c53c7f
+Feb 14 08:00:10 kernel: CPU: VIPT nonaliasing data cache, VIPT nonaliasing instruction cache
+Feb 14 08:00:10 kernel: Machine: Northstar Prototype
+Feb 14 08:00:10 kernel: Ignoring unrecognised tag 0x00000000
+Feb 14 08:00:10 kernel: Memory policy: ECC disabled, Data cache writealloc
+Feb 14 08:00:10 kernel: Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 32512
+Feb 14 08:00:10 kernel: Kernel command line: root=/dev/mtdblock2 console=ttyS0,115200 init=/sbin/preinit earlyprintk debug
+Feb 14 08:00:10 kernel: Memory: 125464k/125464k available, 5608k reserved, 0K highmem
+Feb 14 08:00:10 kernel: Virtual kernel memory layout:
+Feb 14 08:00:10 kernel:     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+Feb 14 08:00:10 kernel:     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+Feb 14 08:00:10 kernel:     DMA     : 0xf7e00000 - 0xffe00000   ( 128 MB)
+Feb 14 08:00:10 kernel:     vmalloc : 0x88800000 - 0xf0000000   (1656 MB)
+Feb 14 08:00:10 kernel:     lowmem  : 0x80000000 - 0x88000000   ( 128 MB)
+Feb 14 08:00:10 kernel:     modules : 0x7f000000 - 0x80000000   (  16 MB)
+Feb 14 08:00:10 kernel:       .init : 0x80008000 - 0x80039000   ( 196 kB)
+Feb 14 08:00:10 kernel:       .text : 0x80039000 - 0x803e5000   (3760 kB)
+Feb 14 08:00:10 kernel:       .data : 0x803fe000 - 0x80420f40   ( 140 kB)
+Feb 14 08:00:10 kernel: Mount-cache hash table entries: 512
+Feb 14 08:00:10 kernel: Found ST compatible serial flash with 256 64KB blocks; total size 16MB
+Feb 14 08:00:10 kernel: ACP (Accelerator Coherence Port) enabled
+Feb 14 08:00:10 kernel: bio: create slab <bio-0> at 0
+Feb 14 08:00:10 kernel: PCI: no core
+Feb 14 08:00:10 kernel: PCI: no core
+Feb 14 08:00:10 kernel: PCI: Fixing up bus 0
+Feb 14 08:00:10 kernel: PCI: Fixing up bus 1
+Feb 14 08:00:10 kernel: PCI: scanning bus 0 !!!
+Feb 14 08:00:11 kernel: PCI: Fixing up bus 0
+Feb 14 08:00:11 kernel: VFS: Disk quotas dquot_6.5.2
+Feb 14 08:00:11 kernel: Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+Feb 14 08:00:11 kernel: pflash: found no supported devices
+Feb 14 08:00:11 kernel: bcmsflash: squash filesystem found at block 30
+Feb 14 08:00:11 kernel: Creating 5 MTD partitions on "bcmsflash":
+Feb 14 08:00:11 kernel: 0x000000000000-0x000000040000 : "boot"
+Feb 14 08:00:11 kernel: 0x000000040000-0x000000ff0000 : "linux"
+Feb 14 08:00:11 kernel: 0x0000001ef8fc-0x000000e10000 : "rootfs"
+Feb 14 08:00:11 kernel: 0x000000e10000-0x000000ff0000 : "jffs2"
+Feb 14 08:00:11 kernel: 0x000000ff0000-0x000001000000 : "nvram"
+Feb 14 08:00:11 kernel: === PPTP init ===
+Feb 14 08:00:11 kernel: Registering the dns_resolver key type
+Feb 14 08:00:11 kernel: VFS: Mounted root (squashfs filesystem) readonly on device 31:2.
+Feb 14 08:00:11 kernel: ctf: module license 'Proprietary' taints kernel.
+Feb 14 08:00:11 kernel: Disabling lock debugging due to kernel taint
+Feb 14 08:00:11 kernel: et_module_init: passivemode set to 0x0
+Feb 14 08:00:11 kernel: et_module_init: txworkq set to 0x1
+Feb 14 08:00:11 kernel: et_module_init: et_txq_thresh set to 0xce4
+Feb 14 08:00:11 kernel: et_module_init: et_rxlazy_timeout set to 0x3e8
+Feb 14 08:00:11 kernel: et_module_init: et_rxlazy_framecnt set to 0x20
+Feb 14 08:00:11 kernel: bcm_robo_enable_switch: EEE is disabled
+Feb 14 08:00:11 kernel: eth0: Broadcom BCM47XX 10/100/1000 Mbps Ethernet Controller 9.10.178.61 (r667680)
+Feb 14 08:00:11 kernel: wl_module_init: passivemode set to 0x0
+Feb 14 08:00:11 kernel: wl_module_init: txworkq set to 0x1
+Feb 14 08:00:11 kernel: PCI: Enabling device 0001:01:00.0 (0140 -> 0142)
+Feb 14 08:00:11 kernel: eth1: Broadcom BCM43227 802.11 Wireless Controller 9.10.178.61 (r667680)
+Feb 14 08:00:11 kernel: eth2: Broadcom BCM43c8 802.11 Wireless Controller 9.10.178.61 (r667680)
+Feb 14 08:00:12 RT-AC1200G+: start httpd
+Feb 14 08:00:13 jffs2: valid logs(1)
+Feb 14 08:00:13 disk monitor: be idle
+Feb 14 08:00:13 syslog: Generating SSL certificate...
+Feb 14 08:00:13 syslog: module ledtrig-usbdev not found in modules.dep
+Feb 14 08:00:13 syslog: module leds-usb not found in modules.dep
+Feb 14 08:00:14 kernel: SCSI subsystem initialized
+Feb 14 08:00:21 rc_service: udhcpc_lan 287:notify_rc stop_httpd
+Feb 14 08:00:21 rc_service: udhcpc_lan 287:notify_rc start_httpd
+Feb 14 08:00:21 rc_service: waitting "stop_httpd" via udhcpc_lan ...
+Feb 14 08:00:22 rc_service: udhcpc_lan 287:notify_rc start_dnsmasq
+Feb 14 08:00:22 rc_service: waitting "start_httpd" via udhcpc_lan ...
+Feb 14 08:00:22 RT-AC1200G+: start httpd
+Feb 14 08:00:23 syslog: Generating SSL certificate...
+Feb 14 08:00:27 ntp: start NTP update
+Jan 23 20:44:54 rc_service: ntp 290:notify_rc restart_diskmon
+Jan 23 20:44:54 disk_monitor: Finish
+Jan 23 20:44:56 disk monitor: be idle
+Jan 23 21:00:56 disk_monitor: Got SIGALRM...
+Feb 14 08:00:10 syslogd started: BusyBox v1.17.4
+Feb 14 08:00:10 kernel: klogd started: BusyBox v1.17.4 (2017-12-29 05:43:13 CST)
+Feb 14 08:00:10 kernel: Linux version 2.6.36.4brcmarm (root@asus) (gcc version 4.5.3 (Buildroot 2012.02) ) #4 PREEMPT Tue Jan 23 20:28:18 CST 2018
+Feb 14 08:00:10 kernel: CPU: ARMv7 Processor [410fc075] revision 5 (ARMv7), cr=10c53c7f
+Feb 14 08:00:10 kernel: CPU: VIPT nonaliasing data cache, VIPT nonaliasing instruction cache
+Feb 14 08:00:10 kernel: Machine: Northstar Prototype
+Feb 14 08:00:10 kernel: Ignoring unrecognised tag 0x00000000
+Feb 14 08:00:10 kernel: Memory policy: ECC disabled, Data cache writealloc
+Feb 14 08:00:10 kernel: Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 32512
+Feb 14 08:00:10 kernel: Kernel command line: root=/dev/mtdblock2 console=ttyS0,115200 init=/sbin/preinit earlyprintk debug
+Feb 14 08:00:10 kernel: Memory: 125464k/125464k available, 5608k reserved, 0K highmem
+Feb 14 08:00:10 kernel: Virtual kernel memory layout:
+Feb 14 08:00:10 kernel:     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+Feb 14 08:00:10 kernel:     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+Feb 14 08:00:10 kernel:     DMA     : 0xf7e00000 - 0xffe00000   ( 128 MB)
+Feb 14 08:00:10 kernel:     vmalloc : 0x88800000 - 0xf0000000   (1656 MB)
+Feb 14 08:00:10 kernel:     lowmem  : 0x80000000 - 0x88000000   ( 128 MB)
+Feb 14 08:00:10 kernel:     modules : 0x7f000000 - 0x80000000   (  16 MB)
+Feb 14 08:00:10 kernel:       .init : 0x80008000 - 0x80039000   ( 196 kB)
+Feb 14 08:00:10 kernel:       .text : 0x80039000 - 0x803e5000   (3760 kB)
+Feb 14 08:00:10 kernel:       .data : 0x803fe000 - 0x80420f40   ( 140 kB)
+Feb 14 08:00:10 kernel: * Invalid signature of oopsbuf: F0-E3-FD-EF-3A-A9-CB-ED (len 1987047391)
+Feb 14 08:00:10 kernel: Mount-cache hash table entries: 512
+Feb 14 08:00:10 kernel: Found ST compatible serial flash with 256 64KB blocks; total size 16MB
+Feb 14 08:00:10 kernel: ACP (Accelerator Coherence Port) enabled
+Feb 14 08:00:10 kernel: bio: create slab <bio-0> at 0
+Feb 14 08:00:10 kernel: PCI: no core
+Feb 14 08:00:10 kernel: PCI: no core
+Feb 14 08:00:10 kernel: PCI: Fixing up bus 0
+Feb 14 08:00:10 kernel: PCI: Fixing up bus 1
+Feb 14 08:00:10 kernel: PCI: scanning bus 0 !!!
+Feb 14 08:00:11 kernel: PCI: Fixing up bus 0
+Feb 14 08:00:11 kernel: VFS: Disk quotas dquot_6.5.2
+Feb 14 08:00:11 kernel: Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+Feb 14 08:00:11 kernel: pflash: found no supported devices
+Feb 14 08:00:11 kernel: bcmsflash: squash filesystem found at block 30
+Feb 14 08:00:11 kernel: Creating 5 MTD partitions on "bcmsflash":
+Feb 14 08:00:11 kernel: 0x000000000000-0x000000040000 : "boot"
+Feb 14 08:00:11 kernel: 0x000000040000-0x000000ff0000 : "linux"
+Feb 14 08:00:11 kernel: 0x0000001ef8fc-0x000000e10000 : "rootfs"
+Feb 14 08:00:11 kernel: 0x000000e10000-0x000000ff0000 : "jffs2"
+Feb 14 08:00:11 kernel: 0x000000ff0000-0x000001000000 : "nvram"
+Feb 14 08:00:11 kernel: === PPTP init ===
+Feb 14 08:00:11 kernel: Registering the dns_resolver key type
+Feb 14 08:00:11 kernel: VFS: Mounted root (squashfs filesystem) readonly on device 31:2.
+Feb 14 08:00:11 kernel: ctf: module license 'Proprietary' taints kernel.
+Feb 14 08:00:11 kernel: Disabling lock debugging due to kernel taint
+Feb 14 08:00:11 kernel: et_module_init: passivemode set to 0x0
+Feb 14 08:00:11 kernel: et_module_init: txworkq set to 0x1
+Feb 14 08:00:11 kernel: et_module_init: et_txq_thresh set to 0xce4
+Feb 14 08:00:11 kernel: et_module_init: et_rxlazy_timeout set to 0x3e8
+Feb 14 08:00:11 kernel: et_module_init: et_rxlazy_framecnt set to 0x20
+Feb 14 08:00:11 kernel: bcm_robo_enable_switch: EEE is disabled
+Feb 14 08:00:11 kernel: eth0: Broadcom BCM47XX 10/100/1000 Mbps Ethernet Controller 9.10.178.61 (r667680)
+Feb 14 08:00:11 kernel: wl_module_init: passivemode set to 0x0
+Feb 14 08:00:11 kernel: wl_module_init: txworkq set to 0x1
+Feb 14 08:00:11 kernel: PCI: Enabling device 0001:01:00.0 (0140 -> 0142)
+Feb 14 08:00:11 kernel: eth1: Broadcom BCM43227 802.11 Wireless Controller 9.10.178.61 (r667680)
+Feb 14 08:00:11 kernel: eth2: Broadcom BCM43c8 802.11 Wireless Controller 9.10.178.61 (r667680)
+Feb 14 08:00:12 RT-AC1200G+: start httpd
+Feb 14 08:00:13 jffs2: valid logs(1)
+Feb 14 08:00:13 disk monitor: be idle
+Feb 14 08:00:13 syslog: module ledtrig-usbdev not found in modules.dep
+Feb 14 08:00:13 syslog: Generating SSL certificate...
+Feb 14 08:00:13 syslog: module leds-usb not found in modules.dep
+Feb 14 08:00:14 kernel: SCSI subsystem initialized
+Feb 14 08:00:21 rc_service: udhcpc_lan 287:notify_rc stop_httpd
+Feb 14 08:00:21 rc_service: udhcpc_lan 287:notify_rc start_httpd
+Feb 14 08:00:21 rc_service: waitting "stop_httpd" via udhcpc_lan ...
+Feb 14 08:00:22 rc_service: udhcpc_lan 287:notify_rc start_dnsmasq
+Feb 14 08:00:23 rc_service: waitting "start_httpd" via udhcpc_lan ...
+Feb 14 08:00:23 RT-AC1200G+: start httpd
+Feb 14 08:00:23 syslog: Generating SSL certificate...
+Feb 14 08:00:26 ntp: start NTP update
+Feb  1 20:57:52 rc_service: ntp 290:notify_rc restart_diskmon
+Feb  1 20:57:52 disk_monitor: Finish
+Feb  1 20:57:54 disk monitor: be idle
+Feb  1 21:00:54 disk_monitor: Got SIGALRM...
+Feb  1 23:00:54 disk_monitor: Got SIGALRM...
+Feb 14 08:00:10 syslogd started: BusyBox v1.17.4
+Feb 14 08:00:10 kernel: klogd started: BusyBox v1.17.4 (2017-12-29 05:43:13 CST)
+Feb 14 08:00:10 kernel: Linux version 2.6.36.4brcmarm (root@asus) (gcc version 4.5.3 (Buildroot 2012.02) ) #4 PREEMPT Tue Jan 23 20:28:18 CST 2018
+Feb 14 08:00:10 kernel: CPU: ARMv7 Processor [410fc075] revision 5 (ARMv7), cr=10c53c7f
+Feb 14 08:00:10 kernel: CPU: VIPT nonaliasing data cache, VIPT nonaliasing instruction cache
+Feb 14 08:00:10 kernel: Machine: Northstar Prototype
+Feb 14 08:00:10 kernel: Ignoring unrecognised tag 0x00000000
+Feb 14 08:00:10 kernel: Memory policy: ECC disabled, Data cache writealloc
+Feb 14 08:00:10 kernel: Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 32512
+Feb 14 08:00:10 kernel: Kernel command line: root=/dev/mtdblock2 console=ttyS0,115200 init=/sbin/preinit earlyprintk debug
+Feb 14 08:00:10 kernel: Memory: 125464k/125464k available, 5608k reserved, 0K highmem
+Feb 14 08:00:10 kernel: Virtual kernel memory layout:
+Feb 14 08:00:10 kernel:     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+Feb 14 08:00:10 kernel:     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+Feb 14 08:00:10 kernel:     DMA     : 0xf7e00000 - 0xffe00000   ( 128 MB)
+Feb 14 08:00:10 kernel:     vmalloc : 0x88800000 - 0xf0000000   (1656 MB)
+Feb 14 08:00:10 kernel:     lowmem  : 0x80000000 - 0x88000000   ( 128 MB)
+Feb 14 08:00:10 kernel:     modules : 0x7f000000 - 0x80000000   (  16 MB)
+Feb 14 08:00:10 kernel:       .init : 0x80008000 - 0x80039000   ( 196 kB)
+Feb 14 08:00:10 kernel:       .text : 0x80039000 - 0x803e5000   (3760 kB)
+Feb 14 08:00:10 kernel:       .data : 0x803fe000 - 0x80420f40   ( 140 kB)
+Feb 14 08:00:10 kernel: * Invalid signature of oopsbuf: F0-E3-FD-EF-3A-A9-DB-ED (len 1987047135)
+Feb 14 08:00:10 kernel: Mount-cache hash table entries: 512
+Feb 14 08:00:10 kernel: Found ST compatible serial flash with 256 64KB blocks; total size 16MB
+Feb 14 08:00:10 kernel: ACP (Accelerator Coherence Port) enabled
+Feb 14 08:00:10 kernel: bio: create slab <bio-0> at 0
+Feb 14 08:00:10 kernel: PCI: no core
+Feb 14 08:00:10 kernel: PCI: no core
+Feb 14 08:00:10 kernel: PCI: Fixing up bus 0
+Feb 14 08:00:10 kernel: PCI: Fixing up bus 1
+Feb 14 08:00:10 kernel: PCI: scanning bus 0 !!!
+Feb 14 08:00:11 kernel: PCI: Fixing up bus 0
+Feb 14 08:00:11 kernel: VFS: Disk quotas dquot_6.5.2
+Feb 14 08:00:11 kernel: Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+Feb 14 08:00:11 kernel: pflash: found no supported devices
+Feb 14 08:00:11 kernel: bcmsflash: squash filesystem found at block 30
+Feb 14 08:00:11 kernel: Creating 5 MTD partitions on "bcmsflash":
+Feb 14 08:00:11 kernel: 0x000000000000-0x000000040000 : "boot"
+Feb 14 08:00:11 kernel: 0x000000040000-0x000000ff0000 : "linux"
+Feb 14 08:00:11 kernel: 0x0000001ef8fc-0x000000e10000 : "rootfs"
+Feb 14 08:00:11 kernel: 0x000000e10000-0x000000ff0000 : "jffs2"
+Feb 14 08:00:11 kernel: 0x000000ff0000-0x000001000000 : "nvram"
+Feb 14 08:00:11 kernel: === PPTP init ===
+Feb 14 08:00:11 kernel: Registering the dns_resolver key type
+Feb 14 08:00:11 kernel: VFS: Mounted root (squashfs filesystem) readonly on device 31:2.
+Feb 14 08:00:11 kernel: ctf: module license 'Proprietary' taints kernel.
+Feb 14 08:00:11 kernel: Disabling lock debugging due to kernel taint
+Feb 14 08:00:11 kernel: et_module_init: passivemode set to 0x0
+Feb 14 08:00:11 kernel: et_module_init: txworkq set to 0x1
+Feb 14 08:00:11 kernel: et_module_init: et_txq_thresh set to 0xce4
+Feb 14 08:00:11 kernel: et_module_init: et_rxlazy_timeout set to 0x3e8
+Feb 14 08:00:11 kernel: et_module_init: et_rxlazy_framecnt set to 0x20
+Feb 14 08:00:11 kernel: bcm_robo_enable_switch: EEE is disabled
+Feb 14 08:00:11 kernel: eth0: Broadcom BCM47XX 10/100/1000 Mbps Ethernet Controller 9.10.178.61 (r667680)
+Feb 14 08:00:11 kernel: wl_module_init: passivemode set to 0x0
+Feb 14 08:00:11 kernel: wl_module_init: txworkq set to 0x1
+Feb 14 08:00:11 kernel: PCI: Enabling device 0001:01:00.0 (0140 -> 0142)
+Feb 14 08:00:11 kernel: eth1: Broadcom BCM43227 802.11 Wireless Controller 9.10.178.61 (r667680)
+Feb 14 08:00:11 kernel: eth2: Broadcom BCM43c8 802.11 Wireless Controller 9.10.178.61 (r667680)
+Feb 14 08:00:12 RT-AC1200G+: start httpd
+Feb 14 08:00:13 jffs2: valid logs(1)
+Feb 14 08:00:13 disk monitor: be idle
+Feb 14 08:00:13 syslog: module ledtrig-usbdev not found in modules.dep
+Feb 14 08:00:13 syslog: module leds-usb not found in modules.dep
+Feb 14 08:00:13 syslog: Generating SSL certificate...
+Feb 14 08:00:14 kernel: SCSI subsystem initialized
+Feb 14 08:00:21 rc_service: udhcpc_lan 295:notify_rc stop_httpd
+Feb 14 08:00:21 rc_service: udhcpc_lan 295:notify_rc start_httpd
+Feb 14 08:00:21 rc_service: waitting "stop_httpd" via udhcpc_lan ...
+Feb 14 08:00:22 rc_service: udhcpc_lan 295:notify_rc start_dnsmasq
+Feb 14 08:00:22 rc_service: waitting "start_httpd" via udhcpc_lan ...
+Feb 14 08:00:22 RT-AC1200G+: start httpd
+Feb 14 08:00:25 ntp: start NTP update
+Feb 14 08:00:28 ntp: start NTP update
+Feb  3 21:37:13 rc_service: ntp 297:notify_rc restart_diskmon
+Feb  3 21:37:14 disk_monitor: Finish
+Feb  3 21:37:14 disk monitor: be idle
+Feb  3 22:00:14 disk_monitor: Got SIGALRM...
+Feb  3 23:00:14 disk_monitor: Got SIGALRM...
+Feb  4 09:37:06 rc_service: udhcpc_lan 2223:notify_rc start_dnsmasq
+Feb  4 09:37:06 ntp: start NTP update
+Feb  4 17:49:05 rc_service: httpd 296:notify_rc start_lltdc
+Feb  4 21:41:10 ntp: start NTP update
+Feb  4 21:45:16 rc_service: udhcpc_lan 3899:notify_rc start_dnsmasq
+Feb  4 21:45:16 ntp: start NTP update
+Feb 14 08:00:10 syslogd started: BusyBox v1.17.4
+Feb 14 08:00:10 kernel: klogd started: BusyBox v1.17.4 (2017-12-29 05:43:13 CST)
+Feb 14 08:00:10 kernel: Linux version 2.6.36.4brcmarm (root@asus) (gcc version 4.5.3 (Buildroot 2012.02) ) #4 PREEMPT Tue Jan 23 20:28:18 CST 2018
+Feb 14 08:00:10 kernel: CPU: ARMv7 Processor [410fc075] revision 5 (ARMv7), cr=10c53c7f
+Feb 14 08:00:10 kernel: CPU: VIPT nonaliasing data cache, VIPT nonaliasing instruction cache
+Feb 14 08:00:10 kernel: Machine: Northstar Prototype
+Feb 14 08:00:10 kernel: Ignoring unrecognised tag 0x00000000
+Feb 14 08:00:10 kernel: Memory policy: ECC disabled, Data cache writealloc
+Feb 14 08:00:10 kernel: Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 32512
+Feb 14 08:00:10 kernel: Kernel command line: root=/dev/mtdblock2 console=ttyS0,115200 init=/sbin/preinit earlyprintk debug
+Feb 14 08:00:10 kernel: Memory: 125464k/125464k available, 5608k reserved, 0K highmem
+Feb 14 08:00:10 kernel: Virtual kernel memory layout:
+Feb 14 08:00:10 kernel:     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+Feb 14 08:00:10 kernel:     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+Feb 14 08:00:10 kernel:     DMA     : 0xf7e00000 - 0xffe00000   ( 128 MB)
+Feb 14 08:00:10 kernel:     vmalloc : 0x88800000 - 0xf0000000   (1656 MB)
+Feb 14 08:00:10 kernel:     lowmem  : 0x80000000 - 0x88000000   ( 128 MB)
+Feb 14 08:00:10 kernel:     modules : 0x7f000000 - 0x80000000   (  16 MB)
+Feb 14 08:00:10 kernel:       .init : 0x80008000 - 0x80039000   ( 196 kB)
+Feb 14 08:00:10 kernel:       .text : 0x80039000 - 0x803e5000   (3760 kB)
+Feb 14 08:00:10 kernel:       .data : 0x803fe000 - 0x80420f40   ( 140 kB)
+Feb 14 08:00:10 kernel: * Invalid signature of oopsbuf: F0-E3-FD-EF-3B-B9-DB-ED (len 1987047135)
+Feb 14 08:00:10 kernel: Mount-cache hash table entries: 512
+Feb 14 08:00:10 kernel: Found ST compatible serial flash with 256 64KB blocks; total size 16MB
+Feb 14 08:00:10 kernel: ACP (Accelerator Coherence Port) enabled
+Feb 14 08:00:10 kernel: bio: create slab <bio-0> at 0
+Feb 14 08:00:10 kernel: PCI: no core
+Feb 14 08:00:10 kernel: PCI: no core
+Feb 14 08:00:10 kernel: PCI: Fixing up bus 0
+Feb 14 08:00:10 kernel: PCI: Fixing up bus 1
+Feb 14 08:00:10 kernel: PCI: scanning bus 0 !!!
+Feb 14 08:00:11 kernel: PCI: Fixing up bus 0
+Feb 14 08:00:11 kernel: VFS: Disk quotas dquot_6.5.2
+Feb 14 08:00:11 kernel: Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+Feb 14 08:00:11 kernel: pflash: found no supported devices
+Feb 14 08:00:11 kernel: bcmsflash: squash filesystem found at block 30
+Feb 14 08:00:11 kernel: Creating 5 MTD partitions on "bcmsflash":
+Feb 14 08:00:11 kernel: 0x000000000000-0x000000040000 : "boot"
+Feb 14 08:00:11 kernel: 0x000000040000-0x000000ff0000 : "linux"
+Feb 14 08:00:11 kernel: 0x0000001ef8fc-0x000000e10000 : "rootfs"
+Feb 14 08:00:11 kernel: 0x000000e10000-0x000000ff0000 : "jffs2"
+Feb 14 08:00:11 kernel: 0x000000ff0000-0x000001000000 : "nvram"
+Feb 14 08:00:11 kernel: === PPTP init ===
+Feb 14 08:00:11 kernel: Registering the dns_resolver key type
+Feb 14 08:00:11 kernel: VFS: Mounted root (squashfs filesystem) readonly on device 31:2.
+Feb 14 08:00:11 kernel: ctf: module license 'Proprietary' taints kernel.
+Feb 14 08:00:11 kernel: Disabling lock debugging due to kernel taint
+Feb 14 08:00:11 kernel: et_module_init: passivemode set to 0x0
+Feb 14 08:00:11 kernel: et_module_init: txworkq set to 0x1
+Feb 14 08:00:11 kernel: et_module_init: et_txq_thresh set to 0xce4
+Feb 14 08:00:11 kernel: et_module_init: et_rxlazy_timeout set to 0x3e8
+Feb 14 08:00:11 kernel: et_module_init: et_rxlazy_framecnt set to 0x20
+Feb 14 08:00:11 kernel: bcm_robo_enable_switch: EEE is disabled
+Feb 14 08:00:11 kernel: eth0: Broadcom BCM47XX 10/100/1000 Mbps Ethernet Controller 9.10.178.61 (r667680)
+Feb 14 08:00:11 kernel: wl_module_init: passivemode set to 0x0
+Feb 14 08:00:11 kernel: wl_module_init: txworkq set to 0x1
+Feb 14 08:00:11 kernel: PCI: Enabling device 0001:01:00.0 (0140 -> 0142)
+Feb 14 08:00:11 kernel: eth1: Broadcom BCM43227 802.11 Wireless Controller 9.10.178.61 (r667680)
+Feb 14 08:00:11 kernel: eth2: Broadcom BCM43c8 802.11 Wireless Controller 9.10.178.61 (r667680)
+Feb 14 08:00:12 RT-AC1200G+: start httpd
+Feb 14 08:00:13 jffs2: valid logs(1)
+Feb 14 08:00:13 disk monitor: be idle
+Feb 14 08:00:13 syslog: module ledtrig-usbdev not found in modules.dep
+Feb 14 08:00:13 syslog: module leds-usb not found in modules.dep
+Feb 14 08:00:13 syslog: Generating SSL certificate...
+Feb 14 08:00:14 kernel: SCSI subsystem initialized
+Feb 14 08:00:22 rc_service: udhcpc_lan 289:notify_rc stop_httpd
+Feb 14 08:00:22 rc_service: udhcpc_lan 289:notify_rc start_httpd
+Feb 14 08:00:22 rc_service: waitting "stop_httpd" via udhcpc_lan ...
+Feb 14 08:00:23 rc_service: udhcpc_lan 289:notify_rc start_dnsmasq
+Feb 14 08:00:23 rc_service: waitting "start_httpd" via udhcpc_lan ...
+Feb 14 08:00:23 RT-AC1200G+: start httpd
+Feb 14 08:00:25 ntp: start NTP update
+Feb 14 10:01:12 rc_service: ntp 296:notify_rc restart_diskmon
+Feb 14 10:01:12 disk_monitor: Finish
+Feb 14 10:01:13 disk monitor: be idle
+Feb 14 08:00:10 syslogd started: BusyBox v1.17.4
+Feb 14 08:00:10 kernel: klogd started: BusyBox v1.17.4 (2017-12-29 05:43:13 CST)
+Feb 14 08:00:10 kernel: Linux version 2.6.36.4brcmarm (root@asus) (gcc version 4.5.3 (Buildroot 2012.02) ) #4 PREEMPT Tue Jan 23 20:28:18 CST 2018
+Feb 14 08:00:10 kernel: CPU: ARMv7 Processor [410fc075] revision 5 (ARMv7), cr=10c53c7f
+Feb 14 08:00:10 kernel: CPU: VIPT nonaliasing data cache, VIPT nonaliasing instruction cache
+Feb 14 08:00:10 kernel: Machine: Northstar Prototype
+Feb 14 08:00:10 kernel: Ignoring unrecognised tag 0x00000000
+Feb 14 08:00:10 kernel: Memory policy: ECC disabled, Data cache writealloc
+Feb 14 08:00:10 kernel: Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 32512
+Feb 14 08:00:10 kernel: Kernel command line: root=/dev/mtdblock2 console=ttyS0,115200 init=/sbin/preinit earlyprintk debug
+Feb 14 08:00:10 kernel: Memory: 125464k/125464k available, 5608k reserved, 0K highmem
+Feb 14 08:00:10 kernel: Virtual kernel memory layout:
+Feb 14 08:00:10 kernel:     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+Feb 14 08:00:10 kernel:     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+Feb 14 08:00:10 kernel:     DMA     : 0xf7e00000 - 0xffe00000   ( 128 MB)
+Feb 14 08:00:10 kernel:     vmalloc : 0x88800000 - 0xf0000000   (1656 MB)
+Feb 14 08:00:10 kernel:     lowmem  : 0x80000000 - 0x88000000   ( 128 MB)
+Feb 14 08:00:10 kernel:     modules : 0x7f000000 - 0x80000000   (  16 MB)
+Feb 14 08:00:10 kernel:       .init : 0x80008000 - 0x80039000   ( 196 kB)
+Feb 14 08:00:10 kernel:       .text : 0x80039000 - 0x803e5000   (3760 kB)
+Feb 14 08:00:10 kernel:       .data : 0x803fe000 - 0x80420f40   ( 140 kB)
+Feb 14 08:00:10 kernel: * Invalid signature of oopsbuf: F0-E3-FD-FF-3A-A9-DB-ED (len 1987047391)
+Feb 14 08:00:10 kernel: Mount-cache hash table entries: 512
+Feb 14 08:00:10 kernel: Found ST compatible serial flash with 256 64KB blocks; total size 16MB
+Feb 14 08:00:10 kernel: ACP (Accelerator Coherence Port) enabled
+Feb 14 08:00:10 kernel: bio: create slab <bio-0> at 0
+Feb 14 08:00:10 kernel: PCI: no core
+Feb 14 08:00:10 kernel: PCI: no core
+Feb 14 08:00:10 kernel: PCI: Fixing up bus 0
+Feb 14 08:00:10 kernel: PCI: Fixing up bus 1
+Feb 14 08:00:10 kernel: PCI: scanning bus 0 !!!
+Feb 14 08:00:11 kernel: PCI: Fixing up bus 0
+Feb 14 08:00:11 kernel: VFS: Disk quotas dquot_6.5.2
+Feb 14 08:00:11 kernel: Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+Feb 14 08:00:11 kernel: pflash: found no supported devices
+Feb 14 08:00:11 kernel: bcmsflash: squash filesystem found at block 30
+Feb 14 08:00:11 kernel: Creating 5 MTD partitions on "bcmsflash":
+Feb 14 08:00:11 kernel: 0x000000000000-0x000000040000 : "boot"
+Feb 14 08:00:11 kernel: 0x000000040000-0x000000ff0000 : "linux"
+Feb 14 08:00:11 kernel: 0x0000001ef8fc-0x000000e10000 : "rootfs"
+Feb 14 08:00:11 kernel: 0x000000e10000-0x000000ff0000 : "jffs2"
+Feb 14 08:00:11 kernel: 0x000000ff0000-0x000001000000 : "nvram"
+Feb 14 08:00:11 kernel: === PPTP init ===
+Feb 14 08:00:11 kernel: Registering the dns_resolver key type
+Feb 14 08:00:11 kernel: VFS: Mounted root (squashfs filesystem) readonly on device 31:2.
+Feb 14 08:00:11 kernel: ctf: module license 'Proprietary' taints kernel.
+Feb 14 08:00:11 kernel: Disabling lock debugging due to kernel taint
+Feb 14 08:00:11 kernel: et_module_init: passivemode set to 0x0
+Feb 14 08:00:11 kernel: et_module_init: txworkq set to 0x1
+Feb 14 08:00:11 kernel: et_module_init: et_txq_thresh set to 0xce4
+Feb 14 08:00:11 kernel: et_module_init: et_rxlazy_timeout set to 0x3e8
+Feb 14 08:00:11 kernel: et_module_init: et_rxlazy_framecnt set to 0x20
+Feb 14 08:00:11 kernel: bcm_robo_enable_switch: EEE is disabled
+Feb 14 08:00:11 kernel: eth0: Broadcom BCM47XX 10/100/1000 Mbps Ethernet Controller 9.10.178.61 (r667680)
+Feb 14 08:00:11 kernel: wl_module_init: passivemode set to 0x0
+Feb 14 08:00:11 kernel: wl_module_init: txworkq set to 0x1
+Feb 14 08:00:11 kernel: PCI: Enabling device 0001:01:00.0 (0140 -> 0142)
+Feb 14 08:00:11 kernel: eth1: Broadcom BCM43227 802.11 Wireless Controller 9.10.178.61 (r667680)
+Feb 14 08:00:11 kernel: eth2: Broadcom BCM43c8 802.11 Wireless Controller 9.10.178.61 (r667680)
+Feb 14 08:00:12 RT-AC1200G+: start httpd
+Feb 14 08:00:13 jffs2: valid logs(1)
+Feb 14 08:00:13 disk monitor: be idle
+Feb 14 08:00:13 syslog: module ledtrig-usbdev not found in modules.dep
+Feb 14 08:00:13 syslog: module leds-usb not found in modules.dep
+Feb 14 08:00:13 syslog: Generating SSL certificate...
+Feb 14 08:00:14 kernel: SCSI subsystem initialized
+Feb 14 08:00:18 rc_service: udhcpc_lan 285:notify_rc stop_httpd
+Feb 14 08:00:18 rc_service: udhcpc_lan 285:notify_rc start_httpd
+Feb 14 08:00:18 rc_service: waitting "stop_httpd" via udhcpc_lan ...
+Feb 14 08:00:19 rc_service: udhcpc_lan 285:notify_rc start_dnsmasq
+Feb 14 08:00:19 rc_service: waitting "start_httpd" via udhcpc_lan ...
+Feb 14 08:00:19 RT-AC1200G+: start httpd
+Feb 14 08:00:23 ntp: start NTP update
+Feb 14 10:18:41 syslog: Generating SSL certificate...
+Feb 14 10:18:42 rc_service: ntp 287:notify_rc restart_diskmon
+Feb 14 10:18:43 disk_monitor: Finish
+Feb 14 10:18:45 disk monitor: be idle
+Feb 14 08:00:10 syslogd started: BusyBox v1.17.4
+Feb 14 08:00:10 kernel: klogd started: BusyBox v1.17.4 (2017-12-29 05:43:13 CST)
+Feb 14 08:00:10 kernel: Linux version 2.6.36.4brcmarm (root@asus) (gcc version 4.5.3 (Buildroot 2012.02) ) #4 PREEMPT Tue Jan 23 20:28:18 CST 2018
+Feb 14 08:00:10 kernel: CPU: ARMv7 Processor [410fc075] revision 5 (ARMv7), cr=10c53c7f
+Feb 14 08:00:10 kernel: CPU: VIPT nonaliasing data cache, VIPT nonaliasing instruction cache
+Feb 14 08:00:10 kernel: Machine: Northstar Prototype
+Feb 14 08:00:10 kernel: Ignoring unrecognised tag 0x00000000
+Feb 14 08:00:10 kernel: Memory policy: ECC disabled, Data cache writealloc
+Feb 14 08:00:10 kernel: Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 32512
+Feb 14 08:00:10 kernel: Kernel command line: root=/dev/mtdblock2 console=ttyS0,115200 init=/sbin/preinit earlyprintk debug
+Feb 14 08:00:10 kernel: Memory: 125464k/125464k available, 5608k reserved, 0K highmem
+Feb 14 08:00:10 kernel: Virtual kernel memory layout:
+Feb 14 08:00:10 kernel:     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+Feb 14 08:00:10 kernel:     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+Feb 14 08:00:10 kernel:     DMA     : 0xf7e00000 - 0xffe00000   ( 128 MB)
+Feb 14 08:00:10 kernel:     vmalloc : 0x88800000 - 0xf0000000   (1656 MB)
+Feb 14 08:00:10 kernel:     lowmem  : 0x80000000 - 0x88000000   ( 128 MB)
+Feb 14 08:00:10 kernel:     modules : 0x7f000000 - 0x80000000   (  16 MB)
+Feb 14 08:00:10 kernel:       .init : 0x80008000 - 0x80039000   ( 196 kB)
+Feb 14 08:00:10 kernel:       .text : 0x80039000 - 0x803e5000   (3760 kB)
+Feb 14 08:00:10 kernel:       .data : 0x803fe000 - 0x80420f40   ( 140 kB)
+Feb 14 08:00:10 kernel: * Invalid signature of oopsbuf: F0-E3-FD-EF-3A-BD-DB-ED (len 1987047135)
+Feb 14 08:00:10 kernel: Mount-cache hash table entries: 512
+Feb 14 08:00:10 kernel: Found ST compatible serial flash with 256 64KB blocks; total size 16MB
+Feb 14 08:00:10 kernel: ACP (Accelerator Coherence Port) enabled
+Feb 14 08:00:10 kernel: bio: create slab <bio-0> at 0
+Feb 14 08:00:10 kernel: PCI: no core
+Feb 14 08:00:10 kernel: PCI: no core
+Feb 14 08:00:10 kernel: PCI: Fixing up bus 0
+Feb 14 08:00:10 kernel: PCI: Fixing up bus 1
+Feb 14 08:00:10 kernel: PCI: scanning bus 0 !!!
+Feb 14 08:00:11 kernel: PCI: Fixing up bus 0
+Feb 14 08:00:11 kernel: VFS: Disk quotas dquot_6.5.2
+Feb 14 08:00:11 kernel: Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+Feb 14 08:00:11 kernel: pflash: found no supported devices
+Feb 14 08:00:11 kernel: bcmsflash: squash filesystem found at block 30
+Feb 14 08:00:11 kernel: Creating 5 MTD partitions on "bcmsflash":
+Feb 14 08:00:11 kernel: 0x000000000000-0x000000040000 : "boot"
+Feb 14 08:00:11 kernel: 0x000000040000-0x000000ff0000 : "linux"
+Feb 14 08:00:11 kernel: 0x0000001ef8fc-0x000000e10000 : "rootfs"
+Feb 14 08:00:11 kernel: 0x000000e10000-0x000000ff0000 : "jffs2"
+Feb 14 08:00:11 kernel: 0x000000ff0000-0x000001000000 : "nvram"
+Feb 14 08:00:11 kernel: === PPTP init ===
+Feb 14 08:00:11 kernel: Registering the dns_resolver key type
+Feb 14 08:00:11 kernel: VFS: Mounted root (squashfs filesystem) readonly on device 31:2.
+Feb 14 08:00:11 kernel: ctf: module license 'Proprietary' taints kernel.
+Feb 14 08:00:11 kernel: Disabling lock debugging due to kernel taint
+Feb 14 08:00:11 kernel: et_module_init: passivemode set to 0x0
+Feb 14 08:00:11 kernel: et_module_init: txworkq set to 0x1
+Feb 14 08:00:11 kernel: et_module_init: et_txq_thresh set to 0xce4
+Feb 14 08:00:11 kernel: et_module_init: et_rxlazy_timeout set to 0x3e8
+Feb 14 08:00:11 kernel: et_module_init: et_rxlazy_framecnt set to 0x20
+Feb 14 08:00:11 kernel: bcm_robo_enable_switch: EEE is disabled
+Feb 14 08:00:11 kernel: eth0: Broadcom BCM47XX 10/100/1000 Mbps Ethernet Controller 9.10.178.61 (r667680)
+Feb 14 08:00:11 kernel: wl_module_init: passivemode set to 0x0
+Feb 14 08:00:11 kernel: wl_module_init: txworkq set to 0x1
+Feb 14 08:00:11 kernel: PCI: Enabling device 0001:01:00.0 (0140 -> 0142)
+Feb 14 08:00:11 kernel: eth1: Broadcom BCM43227 802.11 Wireless Controller 9.10.178.61 (r667680)
+Feb 14 08:00:11 kernel: eth2: Broadcom BCM43c8 802.11 Wireless Controller 9.10.178.61 (r667680)
+Feb 14 08:00:12 RT-AC1200G+: start httpd
+Feb 14 08:00:13 jffs2: valid logs(1)
+Feb 14 08:00:13 disk monitor: be idle
+Feb 14 08:00:13 syslog: module ledtrig-usbdev not found in modules.dep
+Feb 14 08:00:13 syslog: module leds-usb not found in modules.dep
+Feb 14 08:00:13 syslog: Generating SSL certificate...
+Feb 14 08:00:14 kernel: SCSI subsystem initialized
+Feb 14 08:00:21 rc_service: udhcpc_lan 293:notify_rc stop_httpd
+Feb 14 08:00:21 rc_service: udhcpc_lan 293:notify_rc start_httpd
+Feb 14 08:00:21 rc_service: waitting "stop_httpd" via udhcpc_lan ...
+Feb 14 08:00:22 rc_service: udhcpc_lan 293:notify_rc start_dnsmasq
+Feb 14 08:00:22 rc_service: waitting "start_httpd" via udhcpc_lan ...
+Feb 14 08:00:22 RT-AC1200G+: start httpd
+Feb 14 08:00:25 ntp: start NTP update
+Mar 11 12:59:02 rc_service: ntp 295:notify_rc restart_diskmon
+Mar 11 12:59:02 disk_monitor: Finish
+Mar 11 12:59:03 disk monitor: be idle
+Mar 11 13:00:03 disk_monitor: Got SIGALRM...
+Feb 14 08:00:10 syslogd started: BusyBox v1.17.4
+Feb 14 08:00:10 kernel: klogd started: BusyBox v1.17.4 (2017-12-29 05:43:13 CST)
+Feb 14 08:00:10 kernel: Linux version 2.6.36.4brcmarm (root@asus) (gcc version 4.5.3 (Buildroot 2012.02) ) #4 PREEMPT Tue Jan 23 20:28:18 CST 2018
+Feb 14 08:00:10 kernel: CPU: ARMv7 Processor [410fc075] revision 5 (ARMv7), cr=10c53c7f
+Feb 14 08:00:10 kernel: CPU: VIPT nonaliasing data cache, VIPT nonaliasing instruction cache
+Feb 14 08:00:10 kernel: Machine: Northstar Prototype
+Feb 14 08:00:10 kernel: Ignoring unrecognised tag 0x00000000
+Feb 14 08:00:10 kernel: Memory policy: ECC disabled, Data cache writealloc
+Feb 14 08:00:10 kernel: Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 32512
+Feb 14 08:00:10 kernel: Kernel command line: root=/dev/mtdblock2 console=ttyS0,115200 init=/sbin/preinit earlyprintk debug
+Feb 14 08:00:10 kernel: Memory: 125464k/125464k available, 5608k reserved, 0K highmem
+Feb 14 08:00:10 kernel: Virtual kernel memory layout:
+Feb 14 08:00:10 kernel:     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+Feb 14 08:00:10 kernel:     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+Feb 14 08:00:10 kernel:     DMA     : 0xf7e00000 - 0xffe00000   ( 128 MB)
+Feb 14 08:00:10 kernel:     vmalloc : 0x88800000 - 0xf0000000   (1656 MB)
+Feb 14 08:00:10 kernel:     lowmem  : 0x80000000 - 0x88000000   ( 128 MB)
+Feb 14 08:00:10 kernel:     modules : 0x7f000000 - 0x80000000   (  16 MB)
+Feb 14 08:00:10 kernel:       .init : 0x80008000 - 0x80039000   ( 196 kB)
+Feb 14 08:00:10 kernel:       .text : 0x80039000 - 0x803e5000   (3760 kB)
+Feb 14 08:00:10 kernel:       .data : 0x803fe000 - 0x80420f40   ( 140 kB)
+Feb 14 08:00:10 kernel: * Invalid signature of oopsbuf: F0-E3-FD-FF-3B-A9-CB-ED (len 1987047391)
+Feb 14 08:00:10 kernel: Mount-cache hash table entries: 512
+Feb 14 08:00:10 kernel: Found ST compatible serial flash with 256 64KB blocks; total size 16MB
+Feb 14 08:00:10 kernel: ACP (Accelerator Coherence Port) enabled
+Feb 14 08:00:10 kernel: bio: create slab <bio-0> at 0
+Feb 14 08:00:10 kernel: PCI: no core
+Feb 14 08:00:10 kernel: PCI: no core
+Feb 14 08:00:10 kernel: PCI: Fixing up bus 0
+Feb 14 08:00:10 kernel: PCI: Fixing up bus 1
+Feb 14 08:00:10 kernel: PCI: scanning bus 0 !!!
+Feb 14 08:00:11 kernel: PCI: Fixing up bus 0
+Feb 14 08:00:11 kernel: VFS: Disk quotas dquot_6.5.2
+Feb 14 08:00:11 kernel: Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+Feb 14 08:00:11 kernel: pflash: found no supported devices
+Feb 14 08:00:11 kernel: bcmsflash: squash filesystem found at block 30
+Feb 14 08:00:11 kernel: Creating 5 MTD partitions on "bcmsflash":
+Feb 14 08:00:11 kernel: 0x000000000000-0x000000040000 : "boot"
+Feb 14 08:00:11 kernel: 0x000000040000-0x000000ff0000 : "linux"
+Feb 14 08:00:11 kernel: 0x0000001ef8fc-0x000000e10000 : "rootfs"
+Feb 14 08:00:11 kernel: 0x000000e10000-0x000000ff0000 : "jffs2"
+Feb 14 08:00:11 kernel: 0x000000ff0000-0x000001000000 : "nvram"
+Feb 14 08:00:11 kernel: === PPTP init ===
+Feb 14 08:00:11 kernel: Registering the dns_resolver key type
+Feb 14 08:00:11 kernel: VFS: Mounted root (squashfs filesystem) readonly on device 31:2.
+Feb 14 08:00:11 kernel: ctf: module license 'Proprietary' taints kernel.
+Feb 14 08:00:11 kernel: Disabling lock debugging due to kernel taint
+Feb 14 08:00:11 kernel: et_module_init: passivemode set to 0x0
+Feb 14 08:00:11 kernel: et_module_init: txworkq set to 0x1
+Feb 14 08:00:11 kernel: et_module_init: et_txq_thresh set to 0xce4
+Feb 14 08:00:11 kernel: et_module_init: et_rxlazy_timeout set to 0x3e8
+Feb 14 08:00:11 kernel: et_module_init: et_rxlazy_framecnt set to 0x20
+Feb 14 08:00:11 kernel: bcm_robo_enable_switch: EEE is disabled
+Feb 14 08:00:11 kernel: eth0: Broadcom BCM47XX 10/100/1000 Mbps Ethernet Controller 9.10.178.61 (r667680)
+Feb 14 08:00:11 kernel: wl_module_init: passivemode set to 0x0
+Feb 14 08:00:11 kernel: wl_module_init: txworkq set to 0x1
+Feb 14 08:00:11 kernel: PCI: Enabling device 0001:01:00.0 (0140 -> 0142)
+Feb 14 08:00:11 kernel: eth1: Broadcom BCM43227 802.11 Wireless Controller 9.10.178.61 (r667680)
+Feb 14 08:00:11 kernel: eth2: Broadcom BCM43c8 802.11 Wireless Controller 9.10.178.61 (r667680)
+Feb 14 08:00:12 RT-AC1200G+: start httpd
+Feb 14 08:00:13 disk monitor: be idle
+Feb 14 08:00:13 jffs2: valid logs(1)
+Feb 14 08:00:13 syslog: Generating SSL certificate...
+Feb 14 08:00:13 syslog: module ledtrig-usbdev not found in modules.dep
+Feb 14 08:00:13 syslog: module leds-usb not found in modules.dep
+Feb 14 08:00:14 kernel: SCSI subsystem initialized
+Feb 14 08:00:21 rc_service: udhcpc_lan 292:notify_rc stop_httpd
+Feb 14 08:00:21 rc_service: udhcpc_lan 292:notify_rc start_httpd
+Feb 14 08:00:21 rc_service: waitting "stop_httpd" via udhcpc_lan ...
+Feb 14 08:00:22 rc_service: udhcpc_lan 292:notify_rc start_dnsmasq
+Feb 14 08:00:22 rc_service: waitting "start_httpd" via udhcpc_lan ...
+Feb 14 08:00:22 RT-AC1200G+: start httpd
+Feb 14 08:00:25 ntp: start NTP update
+Mar 22 22:29:10 rc_service: ntp 296:notify_rc restart_diskmon
+Mar 22 22:29:10 disk_monitor: Finish
+Mar 22 22:29:11 disk monitor: be idle
+Feb 14 08:00:11 syslogd started: BusyBox v1.17.4
+Feb 14 08:00:11 kernel: klogd started: BusyBox v1.17.4 (2018-03-20 19:56:12 CST)
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x0000000c: 0xfe40 instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00000010: 0xdb8b instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00000014: 0xf720 instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00000018: 0x4a35 instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x0000001c: 0x6976 instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00000020: 0x13c1 instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00000024: 0xb3ee instead
+Feb 14 08:00:11 kernel: Further such events for this erase block will not be printed
+Feb 14 08:00:11 kernel: Old JFFS2 bitmask found at 0x00006388
+Feb 14 08:00:11 kernel: You cannot use older JFFS2 filesystems with newer kernels
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00010000: 0x5ae4 instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00010004: 0x0800 instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00010008: 0xa74c instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x0001000c: 0xfa8f instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00010010: 0xe676 instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00010014: 0xae75 instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00010018: 0x1676 instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x0001001c: 0x86c1 instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00010020: 0x2ce9 instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00010024: 0xefc7 instead
+Feb 14 08:00:11 kernel: Further such events for this erase block will not be printed
+Feb 14 08:00:11 kernel: Old JFFS2 bitmask found at 0x0001b09c
+Feb 14 08:00:11 kernel: You cannot use older JFFS2 filesystems with newer kernels
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00020000: 0xb4fe instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00020004: 0x39fe instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00020008: 0x2e0a instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x0002000c: 0x6596 instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00020010: 0xf644 instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00020014: 0x7f20 instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00020018: 0x08a6 instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x0002001c: 0xb91c instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00020020: 0x46a9 instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00020024: 0x54f4 instead
+Feb 14 08:00:11 kernel: Further such events for this erase block will not be printed
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00030000: 0xf91e instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00030004: 0x7332 instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00030008: 0xe9b2 instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x0003000c: 0x730e instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00030010: 0xd3bd instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00030014: 0x6f78 instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00030018: 0x385f instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x0003001c: 0x71db instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00030020: 0xfff2 instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00030024: 0xc417 instead
+Feb 14 08:00:11 kernel: Further such events for this erase block will not be printed
+Feb 14 08:00:11 kernel: Old JFFS2 bitmask found at 0x0003cf84
+Feb 14 08:00:11 kernel: You cannot use older JFFS2 filesystems with newer kernels
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00040000: 0x7722 instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00040004: 0xff21 instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00040008: 0x265c instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x0004000c: 0x69b3 instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00040010: 0x63b4 instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00040014: 0x1072 instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00040018: 0x174f instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x0004001c: 0xff74 instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00040020: 0x70a4 instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00040024: 0xe4d1 instead
+Feb 14 08:00:11 kernel: Further such events for this erase block will not be printed
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00050000: 0x4daf instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00050004: 0xf5ab instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00050008: 0x64ca instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x0005000c: 0x3fff instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00050010: 0x478f instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00050014: 0x7e3d instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00050018: 0x0eaa instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x0005001c: 0x75fb instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00050020: 0xec4d instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00050024: 0x02e3 instead
+Feb 14 08:00:11 kernel: Further such events for this erase block will not be printed
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00060000: 0xba18 instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00060004: 0x47bd instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00060008: 0x5546 instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x0006000c: 0x2360 instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00060010: 0xa535 instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00060014: 0x2088 instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00060018: 0xb80a instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x0006001c: 0xf8ab instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00060020: 0x54e3 instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00060024: 0x3856 instead
+Feb 14 08:00:11 kernel: Further such events for this erase block will not be printed
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00070000: 0x5573 instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00070004: 0x1f68 instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00070008: 0x2008 instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x0007000c: 0xc6fb instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00070010: 0x1ed7 instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00070014: 0xba4d instead
+Feb 14 08:00:11 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00070018: 0x4c27 instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x0007001c: 0x0e10 instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00070020: 0x19c6 instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00070024: 0x1d30 instead
+Feb 14 08:00:12 kernel: Further such events for this erase block will not be printed
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00080000: 0x6b72 instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00080004: 0x5319 instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00080008: 0x003a instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x0008000c: 0x6632 instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00080010: 0xf79c instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00080014: 0xc72c instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00080018: 0x7c08 instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x0008001c: 0x4dba instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00080020: 0x04f0 instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00080024: 0xd56b instead
+Feb 14 08:00:12 kernel: Further such events for this erase block will not be printed
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00090000: 0x5f15 instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00090004: 0xe89b instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00090008: 0x26f6 instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x0009000c: 0x42ed instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00090010: 0xc989 instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00090014: 0xe9cc instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00090018: 0x7f52 instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x0009001c: 0x79c6 instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00090020: 0xd51b instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00090024: 0x8f13 instead
+Feb 14 08:00:12 kernel: Further such events for this erase block will not be printed
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000a0000: 0x1df2 instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000a0004: 0xacf5 instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000a0008: 0xfef5 instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000a000c: 0xe47f instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000a0010: 0x0e27 instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000a0014: 0xefc4 instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000a0018: 0x4de7 instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000a001c: 0x8bbd instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000a0020: 0x6878 instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000a0024: 0x9c12 instead
+Feb 14 08:00:12 kernel: Further such events for this erase block will not be printed
+Feb 14 08:00:12 kernel: Old JFFS2 bitmask found at 0x000ad4f8
+Feb 14 08:00:12 kernel: You cannot use older JFFS2 filesystems with newer kernels
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000b0000: 0x93a3 instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000b0004: 0x253d instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000b0008: 0x6317 instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000b000c: 0x4e2e instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000b0010: 0xb13c instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000b0014: 0x823c instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000b0018: 0x525c instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000b001c: 0x2105 instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000b0020: 0x465b instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000b0024: 0xb596 instead
+Feb 14 08:00:12 kernel: Further such events for this erase block will not be printed
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000c0000: 0x1e5e instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000c0004: 0xd336 instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000c0008: 0x3052 instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000c000c: 0x0c33 instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000c0010: 0x027b instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000c0014: 0x1d3c instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000c0018: 0x8f81 instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000c001c: 0x7d6e instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000c0020: 0x0136 instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000c0024: 0x35f1 instead
+Feb 14 08:00:12 kernel: Further such events for this erase block will not be printed
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000d0000: 0xd059 instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000d0004: 0xaf66 instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000d0008: 0x1c9c instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000d000c: 0x8b1b instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000d0010: 0xbebd instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000d0014: 0xc5c8 instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000d0018: 0x4cb4 instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000d001c: 0xf468 instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000d0020: 0x8550 instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000d0024: 0xaae4 instead
+Feb 14 08:00:12 kernel: Further such events for this erase block will not be printed
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000e0000: 0xbbb6 instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000e0004: 0xde99 instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000e0008: 0xb33e instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000e000c: 0x6cda instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000e0010: 0x87e8 instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000e0014: 0x8e3d instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000e0018: 0xd9e7 instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000e001c: 0x678c instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000e0020: 0x8ab1 instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000e0024: 0x18c7 instead
+Feb 14 08:00:12 kernel: Further such events for this erase block will not be printed
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000f0000: 0x2d58 instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000f0004: 0xff2c instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000f0008: 0x2aad instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000f000c: 0x8622 instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000f0010: 0xc495 instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000f0014: 0x5041 instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000f0018: 0x8466 instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000f001c: 0xc0f9 instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000f0020: 0xa15c instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x000f0024: 0x2919 instead
+Feb 14 08:00:12 kernel: Further such events for this erase block will not be printed
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00100000: 0xcc09 instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00100004: 0xde78 instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00100008: 0x73ab instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x0010000c: 0x481e instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00100010: 0x54ef instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00100014: 0x0398 instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00100018: 0x1628 instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x0010001c: 0x0390 instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00100020: 0xaab5 instead
+Feb 14 08:00:12 kernel: jffs2_scan_eraseblock(): Magic bitmask 0x1985 not found at 0x00100024: 0x5af0 instead
+Feb 14 08:00:12 kernel: Further such events for this erase block will not be printed
+Feb 14 08:00:13 RT-AC1200G+: start httpd
+Feb 14 08:00:14 jffs2: valid logs(1)
+Feb 14 08:00:14 disk monitor: be idle
+Feb 14 08:00:14 syslog: module ledtrig-usbdev not found in modules.dep
+Feb 14 08:00:14 syslog: module leds-usb not found in modules.dep
+Feb 14 08:00:15 syslog: Generating SSL certificate...
+Feb 14 08:00:15 kernel: SCSI subsystem initialized
+Feb 14 08:00:20 rc_service: udhcpc_lan 285:notify_rc start_dnsmasq
+Feb 14 08:00:21 LAN network changes (%s/%s --> %s/%s). : 192.168.0.128
+Feb 14 08:00:21 rc_service: udhcpc_lan 285:notify_rc stop_samba
+Feb 14 08:00:21 rc_service: udhcpc_lan 285:notify_rc start_samba
+Feb 14 08:00:21 rc_service: waitting "stop_samba" via udhcpc_lan ...
+Feb 14 08:00:23 Samba Server: smb daemon is stoped
+Feb 14 08:00:23 kernel: gro disabled
+Feb 14 08:00:23 ntp: start NTP update
+Mar 22 22:34:01 rc_service: ntp 286:notify_rc restart_diskmon
+Mar 22 22:34:01 disk_monitor: Finish
+Mar 22 22:34:02 disk monitor: be idle
+

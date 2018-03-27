@@ -1,0 +1,11 @@
+kernel/fs/autofs/autofs.ko
+kernel/fs/autofs4/autofs4.ko
+kernel/fs/configfs/configfs.ko
+kernel/fs/fuse/fuse.ko
+kernel/fs/hfs/hfs.ko
+kernel/fs/hfsplus/hfsplus.ko
+kernel/fs/nls/nls_base.ko
+kernel/fs/nls/nls_utf8.ko
+kernel/fs/quota/quota_v2.ko
+kernel/fs/quota/quota_tree.ko
+kernel/fs/squashfs/squashfs.ko

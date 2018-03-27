@@ -1,0 +1,1 @@
+cmd_net/ipv6/netfilter/ip6t_ROUTE.ko := arm-brcm-linux-uclibcgnueabi-ld -EL -r  -T /home/mango/data/awrt-mango/src-rt-9.x/src/linux/linux-2.6.36/scripts/module-common.lds --build-id  -o net/ipv6/netfilter/ip6t_ROUTE.ko net/ipv6/netfilter/ip6t_ROUTE.o net/ipv6/netfilter/ip6t_ROUTE.mod.o

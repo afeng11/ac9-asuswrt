@@ -1,0 +1,1 @@
+cmd_drivers/ata/libata.ko := arm-brcm-linux-uclibcgnueabi-ld -EL -r  -T /home/mango/data/awrt-mango/src-rt-9.x/src/linux/linux-2.6.36/scripts/module-common.lds --build-id  -o drivers/ata/libata.ko drivers/ata/libata.o drivers/ata/libata.mod.o
