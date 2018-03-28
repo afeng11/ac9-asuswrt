@@ -1,5 +1,20 @@
 -include $(SRCBASE)/router/.config
 
+TOOLCHAIN_DIR :=
+KERNEL_DIR :=
+PREBUILD_OBJS_DIR :=
+BASESRC_DIR := 
+APPSRC_DIR :=
+
+ARCH := arm
+HOST := arm-linux
+CROSS_COMPILE := arm-brcm-linux-uclibcgnueabi-
+CROSS_COMPILER := $(CROSS_COMPILE)
+PLATFORM := arm-uclibc
+
+EXTRA_CFLAGS := -DLINUX26 -DCONFIG_BCMWL5 -DDEBUG_NOISY -DDEBUG_RCTEST -pipe -DTTEST 
+
+
 export LINUXDIR := $(SRCBASE)/linux/linux-2.6
 export BUILD := $(shell (gcc -dumpmachine))
 export KERNEL_BINARY=$(LINUXDIR)/arch/arm/boot/zImage
@@ -16,7 +31,6 @@ export TOOLS := $(SRCBASE)/toolchains/hndtools-arm-linux-2.6.36-uclibc-4.5.3
 export RTVER := 0.9.32.1
 export BCMSUB := brcmarm
 export PLATFORM := $(PLATFORM_ARCH)
-EXTRA_CFLAGS := -DLINUX26 -DCONFIG_BCMWL5 -DDEBUG_NOISY -DDEBUG_RCTEST -pipe -DTTEST 
 
 export CONFIG_LINUX26=y
 export CONFIG_BCMWL5=y
@@ -72,4 +86,4 @@ define platformKernelConfig
 	)
 endef
 
-export PLATFORM := arm-uclibc
+

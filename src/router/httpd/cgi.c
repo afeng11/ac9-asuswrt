@@ -25,46 +25,36 @@
  * written permission of ASUSTeK Inc..			    
  *
  */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
 #include <signal.h>
-#include <errno.h>    //Viz
-#include <stdarg.h>   //Viz add 2010.08
+#include <errno.h>  //Viz
+#include <stdarg.h> //Viz add 2010.08
 #ifdef BCMDBG
 #include <assert.h>
 #else
 #define assert(a)
 #endif
-
 #include <json.h>
 #include <rtconfig.h>
-
 #if defined(linux)
 /* Use SVID search */
-#define __USE_GNU
 #include <search.h>
-#elif defined(vxworks)
-/* Use vxsearch */
-#include <vxsearch.h>
-extern char *strsep(char **stringp, char *delim);
-#endif
 
 /* CGI hash table */
 static struct hsearch_data htab;
-
-void
-unescape(char *s)
+void unescape(char *s)
 {
 	unsigned int c;
-
-	while ((s = strpbrk(s, "%+"))) {
+	while ((s = strpbrk(s, "%+")))
+	{
 		/* Parse %xx */
-		if (*s == '%') {
+		if (*s == '%')
+		{
 			sscanf(s + 1, "%02x", &c);
-			*s++ = (char) c;
+			*s++ = (char)c;
 			strncpy(s, s + 2, strlen(s) + 1);
 		}
 		/* Space is special */
@@ -72,30 +62,25 @@ unescape(char *s)
 			*s++ = ' ';
 	}
 }
-
-char *
-get_cgi(char *name)
+char * get_cgi(char *name)
 {
 	ENTRY e, *ep;
-
 	if (!htab.table)
 		return NULL;
-
 	e.key = name;
 	hsearch_r(e, FIND, &ep, &htab);
-
 	return ep ? ep->data : NULL;
 }
-
-char *
-get_cgi_json(char *name, json_object *root)
+char * get_cgi_json(char *name, json_object *root)
 {
 	char *value;
-
-	if(root == NULL){
+	if (root == NULL)
+	{
 		value = get_cgi(name);
 		return value;
-	}else{
+	}
+	else
+	{
 		struct json_object *json_value = NULL;
 		json_object_object_get_ex(root, name, &json_value);
 #ifdef RTCONFIG_CFGSYNC
@@ -108,55 +93,47 @@ get_cgi_json(char *name, json_object *root)
 #endif
 	}
 }
-
-char *
-safe_get_cgi_json(char *name, json_object *root)
+char * safe_get_cgi_json(char *name, json_object *root)
 {
 	char *value;
-
-	if(root == NULL){
+	if (root == NULL)
+	{
 		value = get_cgi(name);
-
-	}else{
+	}
+	else
+	{
 		struct json_object *json_value = NULL;
 		json_object_object_get_ex(root, name, &json_value);
-
-		value = (char *) json_object_get_string(json_value);
+		value = (char *)json_object_get_string(json_value);
 	}
 	return value ? value : "";
 }
-
-void
-set_cgi(char *name, char *value)
+void set_cgi(char *name, char *value)
 {
 	ENTRY e, *ep;
-
 	if (!htab.table)
 		return;
-
 	e.key = name;
 	hsearch_r(e, FIND, &ep, &htab);
 	if (ep)
 		ep->data = value;
-	else {
+	else
+	{
 		e.data = value;
 		hsearch_r(e, ENTER, &ep, &htab);
 	}
 	assert(ep);
 }
-
-void
-init_cgi(char *query)
+void init_cgi(char *query)
 {
 	int len, nel;
 	char *q, *name, *value;
-
 	/* Clear variables */
-	if (!query) {
+	if (!query)
+	{
 		hdestroy_r(&htab);
 		return;
 	}
-
 	/* Parse into individual assignments */
 	q = query;
 	len = strlen(query);
@@ -164,94 +141,91 @@ init_cgi(char *query)
 	while (strsep(&q, "&;"))
 		nel++;
 	hcreate_r(nel, &htab);
-
-	for (q = query; q < (query + len);) {
+	for (q = query; q < (query + len);)
+	{
 		/* Unescape each assignment */
 		unescape(name = value = q);
-
 		/* Skip to next assignment */
-		for (q += strlen(q); q < (query + len) && !*q; q++);
-
+		for (q += strlen(q); q < (query + len) && !*q; q++)
+			;
 		/* Assign variable */
 		name = strsep(&value, "=");
-		if (value) {
+		if (value)
+		{
 			//printf("set_cgi: name=%s, value=%s.\n", name , value);	// N12 test
 			set_cgi(name, value);
 		}
 	}
 }
-
 ///////////vvvvvvvvvvvvvvvvvvv//////////////////Viz add 2010.08
 char *webcgi_get(const char *name)
 {
-       ENTRY e, *ep;
- 
-       if (!htab.table) return NULL;
- 
-       e.key = (char *)name;
-       hsearch_r(e, FIND, &ep, &htab);
- 
-//    cprintf("%s=%s\n", name, ep ? ep->data : "(null)");
- 
-       return ep ? ep->data : NULL;
+	ENTRY e, *ep;
+	if (!htab.table)
+		return NULL;
+	e.key = (char *)name;
+	hsearch_r(e, FIND, &ep, &htab);
+	//    cprintf("%s=%s\n", name, ep ? ep->data : "(null)");
+	return ep ? ep->data : NULL;
 }
- 
 void webcgi_set(char *name, char *value)
 {
-       ENTRY e, *ep;
- 
-       if (!htab.table) {
-               hcreate_r(16, &htab);
-       }
- 
-       e.key = name;
-       hsearch_r(e, FIND, &ep, &htab);
-       if (ep) {
-               ep->data = value;
-       }
-       else {
-               e.data = value;
-               hsearch_r(e, ENTER, &ep, &htab);
-       }
+	ENTRY e, *ep;
+	if (!htab.table)
+	{
+		hcreate_r(16, &htab);
+	}
+	e.key = name;
+	hsearch_r(e, FIND, &ep, &htab);
+	if (ep)
+	{
+		ep->data = value;
+	}
+	else
+	{
+		e.data = value;
+		hsearch_r(e, ENTER, &ep, &htab);
+	}
 }
-
 void webcgi_init(char *query)
 {
-       int nel;
-       char *q, *end, *name, *value;
- 
-       if (htab.table) hdestroy_r(&htab);
-       if (query == NULL) return;
- 
-//    cprintf("query = %s\n", query);
-       
-       end = query + strlen(query);
-       q = query;
-       nel = 1;
-       while (strsep(&q, "&;")) {
-               nel++;
-       }
-       hcreate_r(nel, &htab);
- 
-       for (q = query; q < end; ) {
-               value = q;
-               q += strlen(q) + 1;
- 
-               unescape(value);
-               name = strsep(&value, "=");
-               if (value) webcgi_set(name, value);
-       }
+	int nel;
+	char *q, *end, *name, *value;
+	if (htab.table)
+		hdestroy_r(&htab);
+	if (query == NULL)
+		return;
+	//    cprintf("query = %s\n", query);
+	end = query + strlen(query);
+	q = query;
+	nel = 1;
+	while (strsep(&q, "&;"))
+	{
+		nel++;
+	}
+	hcreate_r(nel, &htab);
+	for (q = query; q < end;)
+	{
+		value = q;
+		q += strlen(q) + 1;
+		unescape(value);
+		name = strsep(&value, "=");
+		if (value)
+			webcgi_set(name, value);
+	}
 }
-
 FILE *connfp = NULL;
 int web_read(void *buffer, int len)
 {
-       int r;
-       if (len <= 0) return 0;
-       while ((r = fread(buffer, 1, len, connfp)) == 0) {
-               if (errno != EINTR) return -1;
-       }
-       return r;
+	int r;
+	if (len <= 0)
+		return 0;
+	while ((r = fread(buffer, 1, len, connfp)) == 0)
+	{
+		if (errno != EINTR)
+			return -1;
+	}
+	return r;
 }
 /*
 int web_read_x(void *buffer, int len)
