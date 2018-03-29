@@ -10,7 +10,7 @@ export BUSYBOX_DIR := $(SRCBASE)/router/$(BUSYBOX)
 
 export SRCBASEDIR := $(shell pwd | sed 's/.*release\///g')
 RELEASEDIR := $(shell (cd $(SRC_ROOT)/.. && pwd -P))
-export PATH := $(RELEASEDIR)/tools:$(SRCBASE)/ctools:$(PATH):$(SRCBASE)/toolchain/hndtools-arm-linux-2.6.36-uclibc-4.5.3/bin
+export PATH := $(RELEASEDIR)/tools:$(SRCBASE)/ctools:$(PATH):$(SRCBASE)/toolchains/hndtools-arm-linux-2.6.36-uclibc-4.5.3/bin
 
 # tmp depend on busybox
 E2FSPROGS := $(if $(filter $(BUSYBOX),busybox-1.17.4),n,y)
@@ -253,7 +253,7 @@ endef
 rt-%:
 	@echo $(BUILD_NAME)
 	$(call save_src_config, $@)
-	#$(MAKE) bin
+	@$(MAKE) bin
 
 setprofile:
 	@echo "Using $(N) profile, $(B) build config."
