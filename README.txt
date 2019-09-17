@@ -1,2 +1,2 @@
 #mango's ac9-asuswrt
-times=
+times=30
